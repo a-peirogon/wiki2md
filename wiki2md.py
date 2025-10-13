@@ -40,6 +40,12 @@ def generate_markdown(topic: str, lang: str = "es") -> Optional[str]:
         markdown += f"{page.summary.strip()}\n\n---\n\n"
 
     content = clean_content(page.content)
+
+    for link in sorted(page.links, key=len, reverse=True):
+        if len(link.split()) <= 5:
+            pattern = r"\b" + re.escape(link) + r"\b"
+            content = re.sub(pattern, f"[[{link}]]", content)
+
     markdown += content.strip() + "\n\n"
     markdown += "---\n\n"
     markdown += "## Referencias\n\n"
@@ -48,23 +54,29 @@ def generate_markdown(topic: str, lang: str = "es") -> Optional[str]:
 
     filename = topic.replace(" ", "_").replace("/", "_")
     output_file = output_dir / f"{filename}.md"
-    
+
     try:
         with open(output_file, "w", encoding="utf-8") as file:
             file.write(markdown)
-        print(f"✓ Documento creado: {output_file}")
+        print(f"Documento creado: {output_file}")
         return str(output_file)
     except IOError as e:
-        print(f"✗ Error al guardar archivo: {e}")
+        print(f"Error al guardar archivo: {e}")
         return None
 
 def main():
     parser = argparse.ArgumentParser(
-        description="Genera un documento Markdown limpio a partir de un artículo de Wikipedia."
+        description="Genera un documento Markdown limpio a partir de un artículo de Wikipedia con wikilinks de Obsidian."
     )
     parser.add_argument("topic", type=str, help="Tema para generar el documento.")
-    parser.add_argument("--lang", type=str, default="es", help="Código de idioma Wikipedia (por defecto: 'es').")
+    parser.add_argument(
+        "--lang",
+        type=str,
+        default="es",
+        help="Código de idioma Wikipedia (por defecto: 'es')."
+    )
     args = parser.parse_args()
+
     wikipedia.set_lang(args.lang)
     generate_markdown(args.topic, lang=args.lang)
 
