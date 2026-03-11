@@ -24,15 +24,15 @@ Por otro lado, el desarrollo y aplicación de la inteligencia artificial en much
 
 En cuanto a su clasificación, tradicionalmente se divide a la inteligencia artificial en inteligencia artificial débil, la cual es la única que existe en la actualidad y que se ocupa de realizar tareas específicas, e inteligencia artificial general, que sería una IA que excediese las capacidades humanas. Algunos expertos creen que si alguna vez se alcanzara este nivel, se podría dar lugar a la aparición de una singularidad tecnológica, es decir, una entidad tecnológica superior que se mejoraría a sí misma constantemente, volviéndose incontrolable para los humanos, dando pie a teorías como el basilisco de Roko.​
 
-Algunas de las inteligencias artificiales más conocidas y utilizadas en la actualidad alrededor del mundo incluyen inteligencia artificial en el campo de la salud, asistentes virtuales como Alexa, el asistente de Google o Siri, traductores automáticos como el traductor de Google y DeepL, sistemas de recomendación como el de la plataforma digital de YouTube, motores de ajedrez y otros juegos como Stockfish y AlphaZero, chatbots como ChatGPT, creadores de arte de inteligencia artificial como Midjourney, Dall-e, Leonardo y Stable Diffusion, e incluso la conducción de vehículos autónomos como Tesla Autopilot.​
+Algunas de las inteligencias artificiales más conocidas y utilizadas en la actualidad alrededor del mundo incluyen inteligencia artificial en el campo de la salud, asistentes virtuales como Alexa, el asistente de [[Google]] o [[Siri]], traductores automáticos como el traductor de [[Google]] y [[DeepL]], sistemas de recomendación como el de la plataforma digital de [[YouTube]], motores de ajedrez y otros juegos como [[Stockfish]] y [[AlphaZero]], chatbots como [[ChatGPT]], creadores de arte de inteligencia artificial como [[Midjourney]], [[Dall-e]], Leonardo y [[Stable Diffusion]], e incluso la conducción de vehículos autónomos como [[Tesla Autopilot]].​
 
 ## Denominación
 
-En 2019 la Comisión Mundial de Ética del Conocimiento Científico y la Tecnología (COMEST) de la UNESCO definió la inteligencia artificial como un campo que implica máquinas capaces de imitar determinadas funcionalidades de la inteligencia humana, incluidas características como la percepción, el aprendizaje, el razonamiento, la resolución de problemas, la interacción lingüística e incluso la producción de trabajos creativos.
+En 2019 la Comisión Mundial de [[Ética]] del [[Conocimiento]] [[Científico]] y la [[Tecnología]] (COMEST) de la [[UNESCO]] definió la inteligencia artificial como un campo que implica máquinas capaces de imitar determinadas funcionalidades de la inteligencia humana, incluidas características como la percepción, el aprendizaje, el razonamiento, la resolución de problemas, la interacción lingüística e incluso la producción de trabajos creativos.
 
-Coloquialmente, la locución «inteligencia artificial» se aplica cuando una máquina imita las funciones «cognitivas» que los humanos asocian como competencias humanas; por ejemplo: «percibir», «razonar», «aprender» y «resolver problemas».​ Andreas Kaplan y Michael Haenlein definen la inteligencia artificial como «la capacidad de un sistema para interpretar correctamente datos externos, y así aprender y emplear esos conocimientos para lograr tareas y metas concretas a través de la adaptación flexible».​ A medida que las máquinas se vuelven cada vez más capaces, se elimina de la definición la tecnología que alguna vez se pensó que requería de inteligencia. Marvin Minsky, uno de los ideadores de la IA, hablaba del término inteligencia artificial como una palabra maleta («suitcase word») porque en él se pueden meter una diversidad de elementos.​​
+Coloquialmente, la locución «inteligencia artificial» se aplica cuando una máquina imita las funciones «cognitivas» que los humanos asocian como competencias humanas; por ejemplo: «percibir», «razonar», «aprender» y «resolver problemas».​ Andreas Kaplan y [[Michael Haenlein]] definen la inteligencia artificial como «la capacidad de un sistema para interpretar correctamente datos externos, y así aprender y emplear esos conocimientos para lograr tareas y metas concretas a través de la adaptación flexible».​ A medida que las máquinas se vuelven cada vez más capaces, se elimina de la definición la tecnología que alguna vez se pensó que requería de inteligencia. [[Marvin Minsky]], uno de los ideadores de la IA, hablaba del término inteligencia artificial como una palabra maleta («suitcase word») porque en él se pueden meter una diversidad de elementos.​​
 
-Por ejemplo, el reconocimiento óptico de caracteres ya no se percibe como un ejemplo de la «inteligencia artificial», habiéndose convertido en una tecnología común.​ Avances tecnológicos todavía clasificados como inteligencia artificial son los sistemas de conducción autónomos o los capaces de jugar al ajedrez o Go.​
+Por ejemplo, el reconocimiento óptico de caracteres ya no se percibe como un ejemplo de la «inteligencia artificial», habiéndose convertido en una tecnología común.​ Avances tecnológicos todavía clasificados como inteligencia artificial son los sistemas de conducción autónomos o los capaces de jugar al ajedrez o [[Go]].​
 
 La inteligencia artificial es una nueva forma de resolver problemas dentro de los cuales se incluyen los sistemas expertos, el manejo y control de robots y los procesadores, que intenta integrar el conocimiento en tales sistemas; en otras palabras, un sistema inteligente capaz de escribir su propio programa. Un sistema experto definido como una estructura de programación capaz de almacenar y utilizar un conocimiento sobre un área determinada que se traduce en su capacidad de aprendizaje.​ De igual manera, se puede considerar a la IA como la capacidad de las máquinas para usar algoritmos, aprender de los datos y utilizar lo aprendido en la toma de decisiones tal y como lo haría un ser humano.​
 
@@ -50,7 +50,7 @@ Asimismo la inteligencia artificial se está desarrollando en la plataforma digi
 
 ## Tipos
 
-Stuart J. Russell y Peter Norvig diferencian varios tipos de inteligencia artificial:​
+[[Stuart J. Russell]] y [[Peter Norvig]] diferencian varios tipos de inteligencia artificial:​
 
 Los sistemas que piensan como humanos: Estos sistemas tratan de emular el pensamiento humano; por ejemplo, las redes neuronales artificiales. La automatización de actividades que vinculamos con procesos de pensamiento humano, actividades como la toma de decisiones, resolución de problemas y aprendizaje.​
 
@@ -60,33 +60,33 @@ Los sistemas que piensan racionalmente: Es decir, con lógica (idealmente), trat
 
 Los sistemas que actúan racionalmente: Tratan de emular de forma racional el comportamiento humano; por ejemplo, los agentes inteligentes, que están relacionados con conductas inteligentes en artefactos.​
 
-#### Inteligencia artificial generativa
+#### [[[[Inteligencia]] artificial generativa]]
 
 La inteligencia artificial generativa es un tipo de sistema de inteligencia artificial capaz de generar texto, imágenes u otros medios en respuesta a comandos de texto conocidos como "prompts".​ Un prompt es la instrucción, pregunta o conjunto de indicaciones para que la inteligencia artificial realice la tarea específica proporcione la respuesta requerida. La calidad del prompt influye directamente en la calidad de la respuesta.​
 
 Los modelos de IA generativa aprenden los patrones y la estructura de sus datos de entrenamiento de entrada, y luego generan nuevos datos que tienen características similares.
 
-Los sistemas de IA generativa notables incluyen ChatGPT (y su variante Microsoft Copilot), un bot conversacional creado por OpenAI usando sus modelos de lenguaje grande fundacionales GPT-3 y GPT-4; Gemini (anteriormente llamado Bard), un bot conversacional creado por Google usando el modelo de lenguaje Gemini; y Claude, un bot conversacional creado por Anthropic usando los modelos del mismo nombre.​Otros modelos generativos de IA incluyen sistemas de arte de inteligencia artificial como Stable Diffusion, Midjourney y DALL-E, que permiten crear imágenes. Actualmente la IA generativa puede crear texto, código, imágenes, vídeo, música, voces y efectos de sonido.
+Los sistemas de IA generativa notables incluyen [[ChatGPT]] (y su variante [[[[Microsoft]] Copilot]]), un bot conversacional creado por [[OpenAI]] usando sus modelos de lenguaje grande fundacionales [[GPT-3]] y [[GPT-4]]; Gemini (anteriormente llamado Bard), un bot conversacional creado por [[Google]] usando el modelo de lenguaje Gemini; y Claude, un bot conversacional creado por [[Anthropic]] usando los modelos del mismo nombre.​Otros modelos generativos de IA incluyen sistemas de arte de inteligencia artificial como [[Stable Diffusion]], [[Midjourney]] y [[DALL-E]], que permiten crear imágenes. Actualmente la IA generativa puede crear texto, código, imágenes, vídeo, música, voces y efectos de sonido.
 
-#### Inteligencia artificial fuerte
+#### [[[[Inteligencia]] artificial fuerte]]
 
-La Inteligencia artificial fuerte (IGA) es un tipo hipotético de inteligencia artificial que iguala o excede la inteligencia humana promedio. Si se hiciera realidad, una IGA podría aprender a realizar cualquier tarea intelectual que los seres humanos o los animales puedan llevar a cabo. Alternativamente, la IGA se ha definido como un sistema autónomo que supera las capacidades humanas en la mayoría de las tareas económicamente valiosas.
+La [[[[Inteligencia]] artificial fuerte]] (IGA) es un tipo hipotético de inteligencia artificial que iguala o excede la inteligencia humana promedio. Si se hiciera realidad, una IGA podría aprender a realizar cualquier tarea intelectual que los seres humanos o los animales puedan llevar a cabo. Alternativamente, la IGA se ha definido como un sistema autónomo que supera las capacidades humanas en la mayoría de las tareas económicamente valiosas.
 
-Algunos sostienen que podría ser posible en años o décadas; otros, que podría tardar un siglo o más; y una minoría cree que quizá nunca se consiga. Existe un debate sobre la definición exacta de IGA y sobre si los grandes modelos de lenguaje (LLM) modernos, como el GPT-4, son formas tempranas pero incompletas de IGA.
+Algunos sostienen que podría ser posible en años o décadas; otros, que podría tardar un siglo o más; y una minoría cree que quizá nunca se consiga. Existe un debate sobre la definición exacta de IGA y sobre si los grandes modelos de lenguaje (LLM) modernos, como el [[GPT-4]], son formas tempranas pero incompletas de IGA.
 
-#### Inteligencia artificial explicable
+#### [[[[Inteligencia]] artificial explicable]]
 
 La inteligencia artificial explicable se refiere a métodos y técnicas en la aplicación de tecnología de inteligencia artificial por los que el ser humano es capaz de comprender las decisiones y predicciones realizadas por la inteligencia artificial.
 
-#### Inteligencia artificial amigable
+#### [[[[Inteligencia]] artificial amigable]]
 
 La inteligencia artificial amigable es una IA fuerte e hipotética que puede tener un efecto positivo más que uno negativo sobre la humanidad. 'Amigable' es usado en este contexto como terminología técnica y escoge agentes que son seguros y útiles, no necesariamente aquellos que son «amigables» en el sentido coloquial. El concepto es invocado principalmente en el contexto de discusiones de agentes artificiales de automejora recursiva que rápidamente explota en inteligencia, con el argumento de que esta tecnología hipotética pudiera tener una larga, rápida y difícil tarea de controlar el impacto en la sociedad humana.
 
-#### Inteligencia artificial multimodal
+#### [[[[Inteligencia]] artificial multimodal]]
 
 La inteligencia artificial multimodal es un tipo de inteligencia artificial que puede procesar e integrar datos de diferentes modalidades, como texto, imágenes, audio y video, para obtener una comprensión más completa y contextualizada de una situación. La inteligencia artificial multimodal se inspira en la forma en que los humanos usan varios sentidos para percibir e interactuar con el mundo, y ofrece una forma más natural e intuitiva de comunicarse con la tecnología.
 
-#### Inteligencia artificial cuántica
+#### [[Inteligencia]] artificial cuántica
 
 La inteligencia artificial Cuántica es un campo interdisciplinar que se enfoca en construir algoritmos cuánticos para mejorar las tareas computacionales dentro de la IA, incluyendo subcampos como el aprendizaje automático. Existen evidencias que muestran una posible ventaja cuadrática cuántica en operaciones fundamentales de la IA.
 
@@ -98,21 +98,21 @@ La inteligencia artificial convencional.
 
 La inteligencia computacional.
 
-### Inteligencia artificial convencional
+### [[Inteligencia]] artificial convencional
 
 Se conoce también como IA simbólica-deductiva. Está basada en el análisis formal y estadístico del comportamiento humano ante diferentes problemas:
 
-Razonamiento basado en casos: Ayuda a tomar decisiones mientras se resuelven ciertos problemas concretos y, aparte de que son muy importantes, requieren de un buen funcionamiento.
+[[[[Razonamiento]] basado en casos]]: Ayuda a tomar decisiones mientras se resuelven ciertos problemas concretos y, aparte de que son muy importantes, requieren de un buen funcionamiento.
 
 Sistemas expertos: Infieren una solución a través del conocimiento previo del contexto en que se aplica y utiliza ciertas reglas o relaciones.​
 
 Redes bayesianas: Propone soluciones mediante inferencia probabilística.​
 
-Inteligencia artificial basada en comportamientos: Esta inteligencia contiene autonomía, es decir, puede autorregularse y controlarse para mejorar.
+[[[[Inteligencia]] artificial basada en comportamientos]]: Esta inteligencia contiene autonomía, es decir, puede autorregularse y controlarse para mejorar.
 
-Smart process management: Facilita la toma de decisiones complejas, proponiendo una solución a un determinado problema al igual que lo haría un especialista en dicha actividad.
+[[Smart process management]]: Facilita la toma de decisiones complejas, proponiendo una solución a un determinado problema al igual que lo haría un especialista en dicha actividad.
 
-### Inteligencia artificial computacional
+### [[Inteligencia]] artificial computacional
 
 La inteligencia computacional (también conocida como IA subsimbólica-inductiva) implica desarrollo o aprendizaje interactivo (por ejemplo, modificaciones interactivas de los parámetros en sistemas de conexiones). El aprendizaje se realiza basándose en datos empíricos.
 
@@ -120,27 +120,27 @@ La inteligencia computacional tiene una doble finalidad. Por un lado, su objetiv
 
 ## Historia
 
-La expresión «inteligencia artificial» fue acuñada formalmente en 1956 durante la Conferencia de Dartmouth, pero para entonces ya se había estado trabajando en ello durante cinco años en los cuales se había propuesto muchas definiciones distintas que en ningún caso habían logrado ser aceptadas totalmente por la comunidad investigadora. La IA es una de las disciplinas más recientes junto con la genética moderna.
+La expresión «inteligencia artificial» fue acuñada formalmente en 1956 durante la [[Conferencia de Dartmouth]], pero para entonces ya se había estado trabajando en ello durante cinco años en los cuales se había propuesto muchas definiciones distintas que en ningún caso habían logrado ser aceptadas totalmente por la comunidad investigadora. La IA es una de las disciplinas más recientes junto con la genética moderna.
 
-Las ideas más básicas se remontan a los antiguos griegos. Aristóteles (384-322 a. C.) fue el primero en describir un conjunto de reglas que describen una parte del funcionamiento de la mente para obtener conclusiones racionales, y Ctesibio de Alejandría (250 a. C.) construyó la primera máquina autocontrolada, un regulador del flujo de agua (racional pero sin razonamiento).
+Las ideas más básicas se remontan a los antiguos griegos. [[Aristóteles]] (384-322 a. C.) fue el primero en describir un conjunto de reglas que describen una parte del funcionamiento de la mente para obtener conclusiones racionales, y [[Ctesibio]] de Alejandría (250 a. C.) construyó la primera máquina autocontrolada, un regulador del flujo de agua (racional pero sin razonamiento).
 
-En 1315 Ramon Llull en su libro Ars magna tuvo la idea de que el razonamiento podía ser efectuado de manera artificial.
+En 1315 [[Ramon Llull]] en su libro Ars magna tuvo la idea de que el razonamiento podía ser efectuado de manera artificial.
 
-En 1840 Ada Lovelace previó la capacidad de las máquinas para ir más allá de los simples cálculos y aportó una primera idea de lo que sería el software.
+En 1840 [[Ada Lovelace]] previó la capacidad de las máquinas para ir más allá de los simples cálculos y aportó una primera idea de lo que sería el software.
 
-En 1912 Leonardo Torres Quevedo, desarrolló un autómata capaz de jugar al ajedrez (el ajedrecista).
+En 1912 [[Leonardo Torres Quevedo]], desarrolló un autómata capaz de jugar al ajedrez (el ajedrecista).
 
-En 1936 Alan Turing diseña formalmente una Máquina universal que demuestra la viabilidad de un dispositivo físico para implementar cualquier cómputo formalmente definido.
+En 1936 [[Alan Turing]] diseña formalmente una [[Máquina]] universal que demuestra la viabilidad de un dispositivo físico para implementar cualquier cómputo formalmente definido.
 
-En 1943 Warren McCulloch y Walter Pitts presentaron su modelo de neuronas artificiales, el cual se considera el primer trabajo del campo, aun cuando todavía no existía el término. Los primeros avances importantes comenzaron a principios del año 1950 con el trabajo de Alan Turing, a partir de lo cual la ciencia ha pasado por diversas situaciones.
+En 1943 [[Warren McCulloch]] y [[Walter Pitts]] presentaron su modelo de neuronas artificiales, el cual se considera el primer trabajo del campo, aun cuando todavía no existía el término. Los primeros avances importantes comenzaron a principios del año 1950 con el trabajo de [[Alan Turing]], a partir de lo cual la ciencia ha pasado por diversas situaciones.
 
-En 1955 Herbert Simon, Allen Newell y Joseph Carl Shaw, desarrollan el primer lenguaje de programación orientado a la resolución de problemas, el IPL-11. Un año más tarde desarrollan el LogicTheorist, el cual era capaz de demostrar teoremas matemáticos.
+En 1955 Herbert Simon, [[Allen Newell]] y [[Joseph Carl Shaw]], desarrollan el primer lenguaje de programación orientado a la resolución de problemas, el [[IPL-11]]. Un año más tarde desarrollan el [[LogicTheorist]], el cual era capaz de demostrar teoremas matemáticos.
 
-En 1956 fue ideada la expresión «inteligencia artificial» por John McCarthy, Marvin Minsky y Claude Shannon en la Conferencia de Dartmouth, un congreso en el que se hicieron previsiones triunfalistas a diez años que jamás se cumplieron, lo que provocó el abandono casi total de las investigaciones durante quince años.
+En 1956 fue ideada la expresión «inteligencia artificial» por John McCarthy, [[Marvin Minsky]] y Claude Shannon en la [[Conferencia de Dartmouth]], un congreso en el que se hicieron previsiones triunfalistas a diez años que jamás se cumplieron, lo que provocó el abandono casi total de las investigaciones durante quince años.
 
-En 1957 Newell y Simon continúan su trabajo con el desarrollo del General Problem Solver (GPS). GPS era un sistema orientado a la resolución de problemas.
+En 1957 Newell y Simon continúan su trabajo con el desarrollo del [[General Problem Solver]] (GPS). GPS era un sistema orientado a la resolución de problemas.
 
-En 1958 John McCarthy desarrolla en el Instituto Tecnológico de Massachusetts (MIT) el LISP. Su nombre se deriva de LISt Processor. LISP fue el primer lenguaje para procesamiento simbólico.
+En 1958 John McCarthy desarrolla en el Instituto [[Tecnológico]] de Massachusetts (MIT) el [[LISP]]. Su nombre se deriva de LISt Processor. [[LISP]] fue el primer lenguaje para procesamiento simbólico.
 
 En 1959 Rosenblatt introduce el «perceptrón».
 
@@ -148,77 +148,77 @@ A finales de la década de 1950 y comienzos de la de 1960 Robert K. Lindsay desa
 
 En 1963 Quillian desarrolla las redes semánticas como modelo de representación del conocimiento.
 
-En 1964 Bertrand Raphael construye el sistema SIR (Semantic Information Retrieval) el cual era capaz de inferir conocimiento basado en información que se le suministra. Bobrow desarrolla STUDENT.
+En 1964 [[Bertrand Raphael]] construye el sistema SIR (Semantic Information Retrieval) el cual era capaz de inferir conocimiento basado en información que se le suministra. Bobrow desarrolla STUDENT.
 
-A mediados de los años 60, aparecen los sistemas expertos, que predicen la probabilidad de una solución bajo un set de condiciones. Por ejemplo, DENDRAL, iniciado en 1965 por Buchanan, Feigenbaum y Lederberg, el primer Sistema Experto, que asistía a químicos en estructuras químicas complejas, MACSYMA, que asistía a ingenieros y científicos en la solución de ecuaciones matemáticas complejas.
+A mediados de los años 60, aparecen los sistemas expertos, que predicen la probabilidad de una solución bajo un set de condiciones. Por ejemplo, [[DENDRAL]], iniciado en 1965 por Buchanan, Feigenbaum y Lederberg, el primer Sistema Experto, que asistía a químicos en estructuras químicas complejas, MACSYMA, que asistía a ingenieros y científicos en la solución de ecuaciones matemáticas complejas.
 
-Posteriormente entre los años 1968-1970 Terry Winograd desarrolló el sistema SHRDLU, que permitía interrogar y dar órdenes a un robot que se movía dentro de un mundo de bloques.
+Posteriormente entre los años 1968-1970 [[Terry Winograd]] desarrolló el sistema [[SHRDLU]], que permitía interrogar y dar órdenes a un robot que se movía dentro de un mundo de bloques.
 
-En 1666 y 1972 Artificial Intelligence Center desarrollo el Robot Shakey, considerado el primer robot inteligente de la historia. El robot incluía visión artificial, y tenía la capacidad de percibir y razonar sobre su entorno.
+En 1666 y 1972 Artificial Intelligence Center desarrollo el [[Robot]] Shakey, considerado el primer robot inteligente de la historia. El robot incluía visión artificial, y tenía la capacidad de percibir y razonar sobre su entorno.
 
-En 1968 Marvin Minsky publica Semantic Information Processing.
+En 1968 [[Marvin Minsky]] publica Semantic Information Processing.
 
-En 1968 Seymour Papert, Danny Bobrow y Wally Feurzeig desarrollan el lenguaje de programación LOGO.
+En 1968 [[Seymour Papert]], Danny Bobrow y Wally Feurzeig desarrollan el lenguaje de programación LOGO.
 
-En 1969 Alan Kay desarrolla el lenguaje Smalltalk en Xerox PARC y se publica en 1980.
+En 1969 [[Alan Kay]] desarrolla el lenguaje [[Smalltalk]] en [[Xerox PARC]] y se publica en 1980.
 
-En 1973 Alain Colmenauer y su equipo de investigación en la Universidad de Aix-Marseille crean PROLOG (del francés PROgrammation en LOGique) un lenguaje de programación ampliamente utilizado en IA.
+En 1973 [[Alain Colmenauer]] y su equipo de investigación en la Universidad de Aix-Marseille crean [[PROLOG]] (del francés PROgrammation en LOGique) un lenguaje de programación ampliamente utilizado en IA.
 
 En 1973 Shank y Abelson desarrollan los guiones, o scripts, pilares de muchas técnicas actuales en inteligencia artificial y la informática en general.
 
-En 1974 Edward Shortliffe escribe su tesis con MYCIN, uno de los Sistemas Expertos más conocidos, que asistió a médicos en el diagnóstico y tratamiento de infecciones en la sangre.
+En 1974 Edward Shortliffe escribe su tesis con [[MYCIN]], uno de los Sistemas Expertos más conocidos, que asistió a médicos en el diagnóstico y tratamiento de infecciones en la sangre.
 
-En las décadas de 1970 y 1980, creció el uso de sistemas expertos, como MYCIN: R1/XCON, ABRL, PIP, PUFF, CASNET, INTERNIST/CADUCEUS, etc. Algunos permanecen hasta hoy (Shells) como EMYCIN, EXPERT, OPSS.
+En las décadas de 1970 y 1980, creció el uso de sistemas expertos, como [[MYCIN]]: R1/XCON, ABRL, PIP, PUFF, CASNET, INTERNIST/CADUCEUS, etc. Algunos permanecen hasta hoy (Shells) como EMYCIN, EXPERT, OPSS.
 
 En 1981 Kazuhiro Fuchi anuncia el proyecto japonés de la quinta generación de computadoras.
 
 En 1986 McClelland y Rumelhart publican Parallel Distributed Processing (Redes Neuronales).
 
-En 1987 Hitachi desarrollo el Sendai Subway 1000, el primer tren autónomo de la historia. Fue el primer de tren del mundo en utilizar lógica difusa para controlar su velocidad, arranques y paradas.
+En 1987 [[Hitachi]] desarrollo el Sendai Subway 1000, el primer tren autónomo de la historia. Fue el primer de tren del mundo en utilizar lógica difusa para controlar su velocidad, arranques y paradas.
 
 En 1988 se establecen los lenguajes Orientados a Objetos.
 
-En 1997 Gari Kaspárov, campeón mundial de ajedrez, pierde ante la computadora autónoma Deep Blue.
+En 1997 [[Gari Kaspárov]], campeón mundial de ajedrez, pierde ante la computadora autónoma Deep Blue.
 
-En 2006 se celebró el aniversario con el Congreso en español 50 años de inteligencia artificial - Campus Multidisciplinar en Percepción e Inteligencia 2006.
+En 2006 se celebró el aniversario con el Congreso en español 50 años de inteligencia artificial - Campus Multidisciplinar en [[Percepción]] e [[Inteligencia]] 2006.
 
 En 2009 ya había en desarrollo sistemas inteligentes terapéuticos que permiten detectar emociones para poder interactuar con niños autistas.
 
-En 2011 IBM desarrolló un superordenador llamado Watson, el cual ganó una ronda de tres juegos seguidos de Jeopardy!, venciendo a sus dos máximos campeones, y ganando un premio de 1 millón de dólares que IBM luego donó a obras de caridad.​
+En 2011 [[IBM]] desarrolló un superordenador llamado Watson, el cual ganó una ronda de tres juegos seguidos de Jeopardy!, venciendo a sus dos máximos campeones, y ganando un premio de 1 millón de dólares que [[IBM]] luego donó a obras de caridad.​
 
-En 2016, un programa informático ganó cinco a cero al triple campeón de Europa de Go.​
+En 2016, un programa informático ganó cinco a cero al triple campeón de Europa de [[Go]].​
 
 En 2016, el entonces presidente Obama habla sobre el futuro de la inteligencia artificial y la tecnología.​
 
 Existen personas que al dialogar sin saberlo con un chatbot no se percatan de hablar con un programa, de modo tal que se cumple la prueba de Turing como cuando se formuló: «Existirá inteligencia artificial cuando no seamos capaces de distinguir entre un ser humano y un programa informático en una conversación a ciegas».
 
-En 2017 AlphaGo desarrollado por DeepMind derrota 4-1 en una competencia de Go al campeón mundial Lee Sedol. Este suceso fue muy mediático y marcó un hito en la historia de este juego.​ A finales de ese mismo año, Stockfish, el motor de ajedrez considerado el mejor del mundo con 3 400 puntos ELO, fue abrumadoramente derrotado por AlphaZero con solo conocer las reglas del juego y tras solo 4 horas de entrenamiento jugando contra sí mismo.​
+En 2017 [[AlphaGo]] desarrollado por [[DeepMind]] derrota 4-1 en una competencia de [[Go]] al campeón mundial [[Lee Sedol]]. Este suceso fue muy mediático y marcó un hito en la historia de este juego.​ A finales de ese mismo año, [[Stockfish]], el motor de ajedrez considerado el mejor del mundo con 3 400 puntos [[ELO]], fue abrumadoramente derrotado por [[AlphaZero]] con solo conocer las reglas del juego y tras solo 4 horas de entrenamiento jugando contra sí mismo.​
 
 Como anécdota, muchos de los investigadores sobre IA sostienen que «la inteligencia es un programa capaz de ser ejecutado independientemente de la máquina que lo ejecute, computador o cerebro».
 
-En 2017 un grupo de ingenieros en Google inventan la arquitectura de transformador, un modelo de deep learning que alumbró una nueva generación de modelos grandes de lenguaje, empezando por BERT, y luego el revolucionario GPT de OpenAI.​
+En 2017 un grupo de ingenieros en [[Google]] inventan la arquitectura de transformador, un modelo de deep learning que alumbró una nueva generación de modelos grandes de lenguaje, empezando por BERT, y luego el revolucionario GPT de [[OpenAI]].​
 
-En 2018, se lanza el primer televisor con inteligencia artificial por parte de LG Electronics con una plataforma denominada ThinQ.​
+En 2018, se lanza el primer televisor con inteligencia artificial por parte de [[LG Electronics]] con una plataforma denominada ThinQ.​
 
-En 2019, Google presentó su Doodle en que, con ayuda de la inteligencia artificial, hace un homenaje a Johann Sebastian Bach, en el que, añadiendo una simple melodía de dos compases la IA crea el resto.
+En 2019, [[Google]] presentó su Doodle en que, con ayuda de la inteligencia artificial, hace un homenaje a [[Johann Sebastian Bach]], en el que, añadiendo una simple melodía de dos compases la IA crea el resto.
 
-En 2020, la OECD (Organización para la Cooperación y el Desarrollo Económico) publica el documento de trabajo intitulado Hola, mundo: La inteligencia artificial y su uso en el sector público, dirigido a funcionarios de gobierno con el afán de resaltar la importancia de la IA y de sus aplicaciones prácticas en el ámbito gubernamental.​
+En 2020, la [[OECD]] (Organización para la [[Cooperación]] y el Desarrollo Económico) publica el documento de trabajo intitulado Hola, mundo: La inteligencia artificial y su uso en el sector público, dirigido a funcionarios de gobierno con el afán de resaltar la importancia de la IA y de sus aplicaciones prácticas en el ámbito gubernamental.​
 
-Al final del año 2022, se lanzó ChatGPT, una inteligencia artificial generativa capaz de escribir textos y responder preguntas en muchos idiomas. Dado que la calidad de las respuestas recordaba inicialmente al nivel humano, se generó un entusiasmo mundial por la IA​ y ChatGPT alcanzó más de 100 millones de usuarios dos meses después de su lanzamiento.​ Más tarde, los expertos notaron que ChatGPT proporciona información errónea en áreas donde no tiene conocimiento («alucinaciones de datos»), la cual a primera vista parece creíble debido a su perfecta redacción.​
+Al final del año 2022, se lanzó [[ChatGPT]], una inteligencia artificial generativa capaz de escribir textos y responder preguntas en muchos idiomas. Dado que la calidad de las respuestas recordaba inicialmente al nivel humano, se generó un entusiasmo mundial por la IA​ y [[ChatGPT]] alcanzó más de 100 millones de usuarios dos meses después de su lanzamiento.​ Más tarde, los expertos notaron que [[ChatGPT]] proporciona información errónea en áreas donde no tiene conocimiento («alucinaciones de datos»), la cual a primera vista parece creíble debido a su perfecta redacción.​
 
-En 2023, las fotos generadas por IA alcanzaron un nivel de realismo que las hacía confundirse con fotos reales. Como resultado, hubo una ola de «fotos» generadas por IA que muchos espectadores creyeron que eran reales. Una imagen generada por Midjourney se destacó, mostrando al papa Francisco con un elegante abrigo blanco de invierno.​
+En 2023, las fotos generadas por IA alcanzaron un nivel de realismo que las hacía confundirse con fotos reales. Como resultado, hubo una ola de «fotos» generadas por IA que muchos espectadores creyeron que eran reales. Una imagen generada por [[Midjourney]] se destacó, mostrando al papa Francisco con un elegante abrigo blanco de invierno.​
 
 ## Tendencias
 
 En 2024, se realizaron avances significativos en varias áreas de la IA:
 
-Aprendizaje automático y profundo: Se espera que estas técnicas permitan a las máquinas aprender de manera más eficiente y precisa de grandes volúmenes de datos, mejorando capacidades en procesamiento del lenguaje natural, visión por computadora y toma de decisiones automatizada.​​
+[[[[Aprendizaje]] automático]] y profundo: Se espera que estas técnicas permitan a las máquinas aprender de manera más eficiente y precisa de grandes volúmenes de datos, mejorando capacidades en procesamiento del lenguaje natural, visión por computadora y toma de decisiones automatizada.​​
 
 Procesamiento del Lenguaje Natural (PLN): Los avances en PLN permitirán a las máquinas comprender y responder al lenguaje humano de manera más natural y precisa, abriendo nuevas posibilidades en atención al cliente automatizada y generación de contenido.​​
 
 Analítica predictiva y prescriptiva: Estas técnicas utilizarán datos y modelos matemáticos para prever el futuro y recomendar acciones, permitiendo a las organizaciones anticipar y abordar problemas de manera proactiva.​
 
-Integración del Internet de las cosas (IoT) y la IA: Permitirá a las máquinas recopilar y analizar datos en tiempo real para tomar decisiones autónomas y mejorar la eficiencia.​
+Integración del [[[[Internet]] de las cosas]] (IoT) y la IA: Permitirá a las máquinas recopilar y analizar datos en tiempo real para tomar decisiones autónomas y mejorar la eficiencia.​
 
 IA Generativa: Estará más al alcance de las personas sin conocimientos técnicos, permitiendo la creación de chatbots personalizados y otros modelos generativos.​
 
@@ -226,7 +226,7 @@ IA Generativa: Estará más al alcance de las personas sin conocimientos técnic
 
 Ante la posibilidad de crear máquinas dotadas de inteligencia, se volvió importante preocuparse por la cuestión ética de las máquinas para tratar de garantizar que no se produzca ningún daño a los seres humanos, a otros seres vivos e incluso a las mismas máquinas según algunas corrientes de pensamiento.​ Es así como surgió un amplio campo de estudios conocido como ética de la inteligencia artificial de relativamente reciente aparición y que generalmente se divide en dos ramas, la roboética, encargada de estudiar las acciones de los seres humanos hacia los robots, y la ética de las máquinas encargada del estudio del comportamiento de los robots para con los seres humanos.
 
-El acelerado desarrollo tecnológico y científico de la inteligencia artificial que se ha producido en el siglo XXI supone también un importante impacto en otros campos. En la economía mundial durante la segunda revolución industrial se vivió un fenómeno conocido como desempleo tecnológico, que se refiere a cuando la automatización industrial de los procesos de producción a gran escala reemplaza la mano de obra humana. Con la inteligencia artificial podría darse un fenómeno parecido, especialmente en los procesos en los que interviene la inteligencia humana, tal como se ilustraba en el cuento ¡Cómo se divertían! de Isaac Asimov, en el que su autor vislumbra algunos de los efectos que tendría la interacción de máquinas inteligentes especializadas en pedagogía infantil, en lugar de profesores humanos, con los niños en etapa escolar. Este mismo escritor diseñó lo que hoy se conocen como las tres leyes de la robótica, aparecidas por primera vez en el relato Círculo vicioso (Runaround) de 1942, donde establecía lo siguiente:
+El acelerado desarrollo tecnológico y científico de la inteligencia artificial que se ha producido en el siglo XXI supone también un importante impacto en otros campos. En la economía mundial durante la segunda revolución industrial se vivió un fenómeno conocido como desempleo tecnológico, que se refiere a cuando la automatización industrial de los procesos de producción a gran escala reemplaza la mano de obra humana. Con la inteligencia artificial podría darse un fenómeno parecido, especialmente en los procesos en los que interviene la inteligencia humana, tal como se ilustraba en el cuento ¡Cómo se divertían! de [[Isaac Asimov]], en el que su autor vislumbra algunos de los efectos que tendría la interacción de máquinas inteligentes especializadas en pedagogía infantil, en lugar de profesores humanos, con los niños en etapa escolar. Este mismo escritor diseñó lo que hoy se conocen como las tres leyes de la robótica, aparecidas por primera vez en el relato Círculo vicioso (Runaround) de 1942, donde establecía lo siguiente:
 
 Primera Ley
 
@@ -240,15 +240,15 @@ Tercera Ley
 
 Un robot debe proteger su propia existencia en la medida en que esta protección no entre en conflicto con la primera o con la segunda ley.​
 
-Otras obras de ciencia ficción más recientes también exploran algunas cuestiones éticas y filosóficas con respecto a la Inteligencia artificial fuerte, como las películas Yo, robot o A.I. Inteligencia Artificial, en los que se tratan temas tales como la autoconsciencia o el origen de una conciencia emergente de los robots inteligentes o sistemas computacionales, o si éstos podrían considerarse sujetos de derecho debido a sus características casi humanas relacionadas con la sintiencia, como el poder ser capaces de sentir dolor y emociones o hasta qué punto obedecerían al objetivo de su programación, y en caso de no ser así, si podrían ejercer libre albedrío. Esto último es el tema central de la famosa saga de Terminator, en la que las máquinas superan a la humanidad y deciden aniquilarla, historia que, según varios especialistas, podría no limitarse a la ciencia ficción y ser una posibilidad real en una sociedad posthumana que dependiese de la tecnología y las máquinas completamente.​​
+Otras obras de ciencia ficción más recientes también exploran algunas cuestiones éticas y filosóficas con respecto a la [[[[Inteligencia]] artificial fuerte]], como las películas [[Yo, robot]] o [[A.I. [[Inteligencia]] Artificial]], en los que se tratan temas tales como la autoconsciencia o el origen de una conciencia emergente de los robots inteligentes o sistemas computacionales, o si éstos podrían considerarse sujetos de derecho debido a sus características casi humanas relacionadas con la sintiencia, como el poder ser capaces de sentir dolor y emociones o hasta qué punto obedecerían al objetivo de su programación, y en caso de no ser así, si podrían ejercer libre albedrío. Esto último es el tema central de la famosa saga de Terminator, en la que las máquinas superan a la humanidad y deciden aniquilarla, historia que, según varios especialistas, podría no limitarse a la ciencia ficción y ser una posibilidad real en una sociedad posthumana que dependiese de la tecnología y las máquinas completamente.​​
 
 ## Regulación
 
-El Derecho​ desempeña un papel fundamental en el uso y desarrollo de la IA. Las leyes establecen reglas y normas de comportamiento para asegurar el bienestar social y proteger los derechos individuales, y pueden ayudarnos a obtener los beneficios de esta tecnología mientras minimizamos sus riesgos, que son significativos. De momento no hay normas jurídicas que regulen directamente a la IA. Pero con fecha 21 de abril de 2021, la Comisión Europea ha presentado una propuesta de Reglamento europeo para la regulación armonizada de la inteligencia artificial (IA) en la UE. Su título exacto es Propuesta de Reglamento del Parlamento Europeo y del Consejo por el que se establecen normas armonizadas en materia de inteligencia artificial –Ley de Inteligencia Artificial– y se modifican otros actos legislativos de la Unión.
+El Derecho​ desempeña un papel fundamental en el uso y desarrollo de la IA. Las leyes establecen reglas y normas de comportamiento para asegurar el bienestar social y proteger los derechos individuales, y pueden ayudarnos a obtener los beneficios de esta tecnología mientras minimizamos sus riesgos, que son significativos. De momento no hay normas jurídicas que regulen directamente a la IA. Pero con fecha 21 de abril de 2021, la Comisión Europea ha presentado una propuesta de Reglamento europeo para la regulación armonizada de la inteligencia artificial (IA) en la UE. Su título exacto es Propuesta de Reglamento del Parlamento Europeo y del Consejo por el que se establecen normas armonizadas en materia de inteligencia artificial –Ley de [[Inteligencia]] Artificial– y se modifican otros actos legislativos de la Unión.
 
-En marzo de 2023, cientos de empresarios como Elon Musk, Steve Wozniak (cofundador de Apple) o los presidentes de numerosas compañías tecnológicas; intelectuales como Yuval Noah Harari y cientos de académicos e investigadores especializados en inteligencia artificial firmaron una carta abierta avisando del peligro de la falta de regulación de la IA, poniendo el foco sobre OpenAI, la empresa que ha desarrollado ChatGPT. Pidieron una pausa de al menos 6 meses para sus experimentos más potentes, hasta que el mundo logre un consenso internacional para que estos sistemas «sean más precisos, seguros, interpretables, transparentes, robustos, neutrales, confiables y leales».​
+En marzo de 2023, cientos de empresarios como [[Elon Musk]], [[Steve Wozniak]] (cofundador de [[Apple]]) o los presidentes de numerosas compañías tecnológicas; intelectuales como [[Yuval Noah Harari]] y cientos de académicos e investigadores especializados en inteligencia artificial firmaron una carta abierta avisando del peligro de la falta de regulación de la IA, poniendo el foco sobre [[OpenAI]], la empresa que ha desarrollado [[ChatGPT]]. Pidieron una pausa de al menos 6 meses para sus experimentos más potentes, hasta que el mundo logre un consenso internacional para que estos sistemas «sean más precisos, seguros, interpretables, transparentes, robustos, neutrales, confiables y leales».​
 
-Dos meses más tarde, en mayo, 350 ejecutivos de las principales empresas desarrolladoras de IA, académicos e investigadores expertos firmaron un nuevo manifiesto alertando de que la IA avanzada sin regular representa un peligro de extinción para la humanidad: «Mitigar el riesgo de extinción de la IA debería ser una prioridad mundial junto a otros riesgos a escala social como las pandemias y la guerra nuclear»​ Entre los impulsores de esta petición está toda la plana mayor de OpenAI,​ el jefe de Tecnología de Microsoft, el líder de Google DeepMind con 38 ejecutivos, investigadores o profesores de universidad relacionados con la empresa, y representantes de desarrolladoras más pequeñas como Anthropic, Stability AI o Inflection AI.​
+Dos meses más tarde, en mayo, 350 ejecutivos de las principales empresas desarrolladoras de IA, académicos e investigadores expertos firmaron un nuevo manifiesto alertando de que la IA avanzada sin regular representa un peligro de extinción para la humanidad: «Mitigar el riesgo de extinción de la IA debería ser una prioridad mundial junto a otros riesgos a escala social como las pandemias y la guerra nuclear»​ Entre los impulsores de esta petición está toda la plana mayor de [[OpenAI]],​ el jefe de [[Tecnología]] de [[Microsoft]], el líder de [[Google]] [[DeepMind]] con 38 ejecutivos, investigadores o profesores de universidad relacionados con la empresa, y representantes de desarrolladoras más pequeñas como [[Anthropic]], Stability AI o Inflection AI.​
 
 Algunos autores han comenzado a explorar la posibilidad de reconocer a las inteligencias artificiales avanzadas no sólo como herramientas, sino como potenciales sujetos jurídicos limitados, capaces de adquirir derechos y asumir cargas fiscales en relación con los bienes digitales o intangibles que producen.​ Esta propuesta encuentra inspiración en figuras ya reconocidas por el derecho, como las personas jurídicas ficticias, que sin ser humanas, han sido dotadas de capacidad para actuar en el tráfico jurídico. En este contexto, se ha planteado que ciertos autómatas complejos podrían constituir patrimonios propios, asumir responsabilidades civiles por los efectos de sus decisiones autónomas, e incluso tributar, como una forma de responder por su impacto económico y redistribuir los beneficios que generan en sociedades cada vez más digitalizadas.
 
@@ -256,13 +256,13 @@ Esta perspectiva no implica una equiparación entre seres humanos e inteligencia
 
 ## Objetivos
 
-### Razonamiento y resolución de problemas
+### [[Razonamiento]] y resolución de problemas
 
 Los primeros investigadores desarrollaron algoritmos que imitaban el razonamiento paso a paso que los humanos usan cuando resuelven acertijos o hacen deducciones lógicas.​ A finales de la década de 1981-1990, la investigación de la inteligencia artificial había desarrollado métodos para tratar con información incierta o incompleta, empleando conceptos de probabilidad y economía.​
 
 Estos algoritmos demostraron ser insuficientes para resolver grandes problemas de razonamiento porque experimentaron una «explosión combinatoria»: se volvieron exponencialmente más lentos a medida que los problemas crecían.​ De esta manera, se concluyó que los seres humanos rara vez usan la deducción paso a paso que la investigación temprana de la inteligencia artificial seguía; en cambio, resuelven la mayoría de sus problemas utilizando juicios rápidos e intuitivos.​
 
-### Representación del conocimiento
+### [[Representación del conocimiento]]
 
 La representación del conocimiento​ y la ingeniería del conocimiento​ son fundamentales para la investigación clásica de la inteligencia artificial. Algunos «sistemas expertos» intentan recopilar el conocimiento que poseen los expertos en algún ámbito concreto. Además, otros proyectos tratan de reunir el «conocimiento de sentido común» conocido por una persona promedio en una base de datos que contiene un amplio conocimiento sobre el mundo.
 
@@ -274,19 +274,19 @@ Otro objetivo de la inteligencia artificial consiste en poder establecer metas y
 
 En los problemas clásicos de planificación, el agente puede asumir que es el único sistema que actúa en el mundo, lo que le permite estar seguro de las consecuencias de sus acciones.​ Sin embargo, si el agente no es el único actor, entonces se requiere que este pueda razonar bajo incertidumbre. Esto requiere un agente que no solo pueda evaluar su entorno y hacer predicciones, sino también evaluar sus predicciones y adaptarse en función de su evaluación.​ La planificación de múltiples agentes utiliza la cooperación y la competencia de muchos sistemas para lograr un objetivo determinado. El comportamiento emergente como este es utilizado por algoritmos evolutivos e inteligencia de enjambre.​
 
-### Aprendizaje
+### [[Aprendizaje]]
 
 El aprendizaje automático es un concepto fundamental de la investigación de la inteligencia artificial desde el inicio de los estudios de este campo; consiste en la investigación de algoritmos informáticos que mejoran automáticamente a través de la experiencia.​
 
 El aprendizaje no supervisado es la capacidad de encontrar patrones en un flujo de entrada, sin que sea necesario que un humano etiquete las entradas primero. El aprendizaje supervisado incluye clasificación y regresión numérica, lo que requiere que un humano etiquete primero los datos de entrada. La clasificación se usa para determinar a qué categoría pertenece algo y ocurre después de que un programa observe varios ejemplos de entradas de varias categorías. La regresión es el intento de producir una función que describa la relación entre entradas y salidas y predice cómo deben cambiar las salidas a medida que cambian las entradas.​ Tanto los clasificadores como los aprendices de regresión intentan aprender una función desconocida; por ejemplo, un clasificador de spam puede verse como el aprendizaje de una función que asigna el texto de un correo electrónico a una de dos categorías, «spam» o «no spam». La teoría del aprendizaje computacional puede evaluar a los estudiantes por complejidad computacional, complejidad de la muestra (cuántos datos se requieren) o por otras nociones de optimización.​
 
-El mundo está en constante evolución, y herramientas como ChatGPT están en el centro de esta transformación. Mientras que muchas personas ven a ChatGPT como una oportunidad para mejorar la experiencia de sus negocios o personales, hay quienes se muestran escépticos sobre su implementación.​
+El mundo está en constante evolución, y herramientas como [[ChatGPT]] están en el centro de esta transformación. Mientras que muchas personas ven a [[ChatGPT]] como una oportunidad para mejorar la experiencia de sus negocios o personales, hay quienes se muestran escépticos sobre su implementación.​
 
-### Procesamiento de lenguajes naturales
+### [[Procesamiento de lenguajes naturales]]
 
 El procesamiento del lenguaje natural​ permite a las máquinas leer y comprender el lenguaje humano. Un sistema de procesamiento de lenguaje natural suficientemente eficaz permitiría interfaces de usuario de lenguaje natural y la adquisición de conocimiento directamente de fuentes escritas por humanos, como los textos de noticias. Algunas aplicaciones sencillas del procesamiento del lenguaje natural incluyen la recuperación de información, la minería de textos, la respuesta a preguntas y la traducción automática.​ Muchos enfoques utilizan las frecuencias de palabras para construir representaciones sintácticas de texto. Las estrategias de búsqueda de «detección de palabras clave» son populares y escalables, pero poco óptimas; una consulta de búsqueda para «perro» solo puede coincidir con documentos que contengan la palabra literal «perro» y perder un documento con el vocablo «caniche». Los enfoques estadísticos de procesamiento de lenguaje pueden combinar todas estas estrategias, así como otras, y a menudo logran una precisión aceptable a nivel de página o párrafo. Más allá del procesamiento de la semántica, el objetivo final de este es incorporar una comprensión completa del razonamiento de sentido común.​ En 2019, las arquitecturas de aprendizaje profundo basadas en transformadores podían generar texto coherente.​
 
-### Percepción
+### [[Percepción]]
 
 La percepción de la máquina​ es la capacidad de utilizar la entrada de sensores (como cámaras de espectro visible o infrarrojo, micrófonos, señales inalámbricas y lidar, sonar, radar y sensores táctiles) para entender aspectos del mundo. Las aplicaciones incluyen reconocimiento de voz,​ reconocimiento facial y reconocimiento de objetos.​ La visión artificial es la capacidad de analizar la información visual, que suele ser ambigua; un peatón gigante de cincuenta metros de altura muy lejos puede producir los mismos píxeles que un peatón de tamaño normal cercano, lo que requiere que la inteligencia artificial juzgue la probabilidad relativa y la razonabilidad de las diferentes interpretaciones, por ejemplo, utilizando su «modelo de objeto» para evaluar que los peatones de cincuenta metros no existen.​
 
@@ -316,13 +316,13 @@ A pesar de sus beneficios, la IA también presenta algunas desventajas. Una de l
 
 ### Sophia
 
-En marzo de 2016, se hizo popular el comentario que la robot humanoide llamada Sophia de la empresa Hanson Robotics hizo durante su presentación cuando su creador, David Hanson, le preguntara si estaba dispuesta a destruir a la humanidad, a lo que la robot contestó: «Está bien, voy a destruir a la humanidad». Posteriormente, Sophía se ganó el reconocimiento y la atención mediática mundial debido a sus conductas casi humanas, siendo entrevistada en muchas ocasiones por distintos medios y sosteniendo conversaciones con personalidades famosas y reconocidas. En 2017, Sophia obtuvo la ciudadanía saudí, convirtiéndose así en la primera robot en ser reconocida como ciudadana por un país, lo cual levantó la controversia sobre si se les debería otorgar los mismos derechos y obligaciones a los robots como si se trataran de sujetos de derecho.​
+En marzo de 2016, se hizo popular el comentario que la robot humanoide llamada Sophia de la empresa Hanson Robotics hizo durante su presentación cuando su creador, [[David Hanson]], le preguntara si estaba dispuesta a destruir a la humanidad, a lo que la robot contestó: «Está bien, voy a destruir a la humanidad». Posteriormente, Sophía se ganó el reconocimiento y la atención mediática mundial debido a sus conductas casi humanas, siendo entrevistada en muchas ocasiones por distintos medios y sosteniendo conversaciones con personalidades famosas y reconocidas. En 2017, Sophia obtuvo la ciudadanía saudí, convirtiéndose así en la primera robot en ser reconocida como ciudadana por un país, lo cual levantó la controversia sobre si se les debería otorgar los mismos derechos y obligaciones a los robots como si se trataran de sujetos de derecho.​
 
 ### Alice y Bob
 
-A finales de julio de 2017, varios medios internacionales dieron a conocer que el laboratorio de investigación de inteligencia artificial del Instituto Tecnológico de Georgia, en conjunto con el Grupo de Investigación de inteligencia artificial (FAIR) de Facebook, ahora Meta, tuvieron que apagar dos inteligencias artificiales de tipo chatbot denominadas Bob y Alice, ya que habían desarrollado un lenguaje propio más eficiente que el inglés, idioma en el que habían sido entrenados para aprender a negociar, desarrollando finalmente un tipo de comunicación incomprensible que se alejaba de las reglas gramaticales del lenguaje natural y que favorecía el uso de abreviaturas. El lenguaje creado por estas IA mostraba características de un inglés corrupto y patrones repetitivos, en especial de pronombres y determinantes.​
+A finales de julio de 2017, varios medios internacionales dieron a conocer que el laboratorio de investigación de inteligencia artificial del [[Instituto [[Tecnológico]] de Georgia]], en conjunto con el Grupo de Investigación de inteligencia artificial (FAIR) de [[Facebook]], ahora Meta, tuvieron que apagar dos inteligencias artificiales de tipo chatbot denominadas Bob y Alice, ya que habían desarrollado un lenguaje propio más eficiente que el inglés, idioma en el que habían sido entrenados para aprender a negociar, desarrollando finalmente un tipo de comunicación incomprensible que se alejaba de las reglas gramaticales del lenguaje natural y que favorecía el uso de abreviaturas. El lenguaje creado por estas IA mostraba características de un inglés corrupto y patrones repetitivos, en especial de pronombres y determinantes.​
 
-Este inesperado suceso fue visto con pánico en los medios de comunicación, ya que se aseguraba que los chatbots supuestamente habían salido del control humano y habían desarrollado la capacidad de comunicarse entre sí. Sin embargo, posteriormente esto también fue desmentido, pues se argumentó que en realidad Facebook no apagó las inteligencias artificiales, sino que simplemente las puso en pausa y cambió los parámetros de los chatbots, desechando el experimento al final por no tener ningún interés práctico o útil dentro de la investigación sobre IA.​
+Este inesperado suceso fue visto con pánico en los medios de comunicación, ya que se aseguraba que los chatbots supuestamente habían salido del control humano y habían desarrollado la capacidad de comunicarse entre sí. Sin embargo, posteriormente esto también fue desmentido, pues se argumentó que en realidad [[Facebook]] no apagó las inteligencias artificiales, sino que simplemente las puso en pausa y cambió los parámetros de los chatbots, desechando el experimento al final por no tener ningún interés práctico o útil dentro de la investigación sobre IA.​
 
 ### Ameca
 
@@ -330,19 +330,19 @@ A principios del 2022, en la Feria de Electrónica de Consumo (CES) que tomó lu
 
 ### Falsos desnudos
 
-La utilización de aplicaciones gratuitas de IA para transformar fotografías de personas en falsos desnudos está generando problemas que afectan a menores. El caso saltó a los medios de comunicación en septiembre de 2023 cuando en Almendralejo (Badajoz, España) aparecieron varias fotografías de niñas y jóvenes (entre 11 y 17 años) que habían sido modificadas mediante inteligencia artificial para aparecer desnudas. Las imágenes fueron obtenidas de los perfiles de Instagram y de la aplicación WhatsApp de al menos 20 niñas de la localidad. Las fotografías de niñas desnudas habían circulado después mediante Whatsapp y a partir de ellas se había creado un vídeo que también había circulado entre menores. Los autores de dicha transformación también eran menores y compañeros de colegio o instituto. La Agencia Española de Protección de Datos abrió una investigación y se comunicó con el Ayuntamiento de Almendralejo y con la Junta de Extremadura informándoles de que se podía solicitar la retirada de cualquier imagen circulando en internet en el canal prioritario de la agencia.​
+La utilización de aplicaciones gratuitas de IA para transformar fotografías de personas en falsos desnudos está generando problemas que afectan a menores. El caso saltó a los medios de comunicación en septiembre de 2023 cuando en [[Almendralejo]] ([[Badajoz]], España) aparecieron varias fotografías de niñas y jóvenes (entre 11 y 17 años) que habían sido modificadas mediante inteligencia artificial para aparecer desnudas. Las imágenes fueron obtenidas de los perfiles de Instagram y de la aplicación [[WhatsApp]] de al menos 20 niñas de la localidad. Las fotografías de niñas desnudas habían circulado después mediante Whatsapp y a partir de ellas se había creado un vídeo que también había circulado entre menores. Los autores de dicha transformación también eran menores y compañeros de colegio o instituto. La Agencia Española de Protección de Datos abrió una investigación y se comunicó con el Ayuntamiento de [[Almendralejo]] y con la Junta de Extremadura informándoles de que se podía solicitar la retirada de cualquier imagen circulando en internet en el canal prioritario de la agencia.​
 
 ## Críticas
 
-Uno de los mayores críticos de la denominación de estos procesos informáticos con el término de inteligencia artificial es Jaron Lanier. Para ello, objeta la idea de que esta sea realmente inteligente y de que podríamos estar en competencia con un ente artificial. «Esta idea de superar la capacidad humana es ridícula porque está hecha de habilidades humanas».​
+Uno de los mayores críticos de la denominación de estos procesos informáticos con el término de inteligencia artificial es [[Jaron Lanier]]. Para ello, objeta la idea de que esta sea realmente inteligente y de que podríamos estar en competencia con un ente artificial. «Esta idea de superar la capacidad humana es ridícula porque está hecha de habilidades humanas».​
 
-Las principales críticas a la inteligencia artificial tienen que ver con su capacidad de imitar por completo a un ser humano.​ Sin embargo, hay expertos​en el tema que indican que ningún humano individual tiene capacidad para resolver todo tipo de problemas, y autores como Howard Gardner han teorizado sobre la solución.
+Las principales críticas a la inteligencia artificial tienen que ver con su capacidad de imitar por completo a un ser humano.​ Sin embargo, hay expertos​en el tema que indican que ningún humano individual tiene capacidad para resolver todo tipo de problemas, y autores como [[Howard Gardner]] han teorizado sobre la solución.
 
 En los humanos, la capacidad de resolver problemas tiene dos aspectos: los aspectos innatos y los aspectos aprendidos. Los aspectos innatos permiten, por ejemplo, almacenar y recuperar información en la memoria, mientras que en los aspectos aprendidos reside el saber resolver un problema matemático mediante el algoritmo adecuado. Del mismo modo que un humano debe disponer de herramientas que le permitan solucionar ciertos problemas, los sistemas artificiales deben ser programados para que puedan llegar a resolverlos.
 
 Muchas personas consideran que la prueba de Turing ha sido superada, citando conversaciones en que al dialogar con un programa de inteligencia artificial para chat no saben que hablan con un programa. Sin embargo, esta situación no es equivalente a una prueba de Turing, que requiere que el participante se encuentre sobre aviso de la posibilidad de hablar con una máquina.
 
-Otros experimentos mentales como la habitación china, de John Searle, han mostrado cómo una máquina podría simular pensamiento sin realmente poseerlo, pasando la prueba de Turing sin siquiera entender lo que hace, tan solo reaccionando de una forma concreta a determinados estímulos (en el sentido más amplio de la palabra). Esto demostraría que la máquina en realidad no está pensando, ya que actuar de acuerdo con un programa preestablecido sería suficiente. Si para Turing el hecho de engañar a un ser humano que intenta evitar que le engañen es muestra de una mente inteligente, Searle considera posible lograr dicho efecto mediante reglas definidas a priori.
+Otros experimentos mentales como la habitación china, de [[John Searle]], han mostrado cómo una máquina podría simular pensamiento sin realmente poseerlo, pasando la prueba de Turing sin siquiera entender lo que hace, tan solo reaccionando de una forma concreta a determinados estímulos (en el sentido más amplio de la palabra). Esto demostraría que la máquina en realidad no está pensando, ya que actuar de acuerdo con un programa preestablecido sería suficiente. Si para Turing el hecho de engañar a un ser humano que intenta evitar que le engañen es muestra de una mente inteligente, Searle considera posible lograr dicho efecto mediante reglas definidas a priori.
 
 Uno de los mayores problemas en sistemas de inteligencia artificial es la comunicación con el usuario. Este obstáculo es debido a la ambigüedad del lenguaje, y se remonta a los inicios de los primeros sistemas operativos informáticos. La capacidad de los humanos para comunicarse entre sí implica el conocimiento del lenguaje que utiliza el interlocutor. Para que un humano pueda comunicarse con un sistema inteligente hay dos opciones: o bien que el humano aprenda el lenguaje del sistema como si aprendiese a hablar cualquier otro idioma distinto al nativo, o bien que el sistema tenga la capacidad de interpretar el mensaje del usuario en la lengua que el usuario utiliza. También puede haber desperfectos en las instalaciones de los mismos.
 
@@ -354,15 +354,15 @@ Al desarrollar un robot con inteligencia artificial se debe tener cuidado con la
 
 Con el desarrollo de la tecnología de inteligencia artificial, muchas compañías de software como el aprendizaje profundo y el procesamiento del lenguaje natural han comenzado a producirse y la cantidad de películas sobre inteligencia artificial ha aumentado.
 
-Stephen Hawking advirtió sobre los peligros de la inteligencia artificial y lo consideró una amenaza para la supervivencia de la humanidad.​ 
+[[Stephen Hawking]] advirtió sobre los peligros de la inteligencia artificial y lo consideró una amenaza para la supervivencia de la humanidad.​ 
 
 ### Problemas de privacidad y derechos de autor
 
-Los algoritmos de aprendizaje automático requieren grandes cantidades de datos. Las técnicas utilizadas para adquirir estos datos generan preocupaciones sobre temas de privacidad y vigilancia. Las empresas tecnológicas recopilan un gran número de datos de sus usuarios, incluida la actividad en internet, los datos de geolocalización, video y audio.​ Por ejemplo, para construir algoritmos de reconocimiento de voz, Amazon, entre otros, ha grabado millones de conversaciones privadas y han permitido que trabajadores temporales las escuchen para transcribirlas algunas de ellas.​ Las opiniones sobre esta vigilancia generalizada van desde aquellos que la ven como un mal necesario hasta aquellos para quienes no es ética y constituye una violación del derecho a la intimidad.​ Los desarrolladores de IA argumentan que esta es la única forma de ofrecer aplicaciones valiosas y han desarrollado varias técnicas que intentan preservar la privacidad mientras se obtienen los datos, como la agregación de datos, la desidentificación y la privacidad diferencial.​
+Los algoritmos de aprendizaje automático requieren grandes cantidades de datos. Las técnicas utilizadas para adquirir estos datos generan preocupaciones sobre temas de privacidad y vigilancia. Las empresas tecnológicas recopilan un gran número de datos de sus usuarios, incluida la actividad en internet, los datos de geolocalización, video y audio.​ Por ejemplo, para construir algoritmos de reconocimiento de voz, [[Amazon]], entre otros, ha grabado millones de conversaciones privadas y han permitido que trabajadores temporales las escuchen para transcribirlas algunas de ellas.​ Las opiniones sobre esta vigilancia generalizada van desde aquellos que la ven como un mal necesario hasta aquellos para quienes no es ética y constituye una violación del derecho a la intimidad.​ Los desarrolladores de IA argumentan que esta es la única forma de ofrecer aplicaciones valiosas y han desarrollado varias técnicas que intentan preservar la privacidad mientras se obtienen los datos, como la agregación de datos, la desidentificación y la privacidad diferencial.​
 
-Desde 2016, algunos expertos en privacidad, como Cynthia Dwork, comenzaron a ver la privacidad desde la perspectiva de la equidad: Brian Christian escribió que los expertos han cambiado «de la pregunta de “qué saben” a la pregunta de “qué están haciendo con ello”».​
+Desde 2016, algunos expertos en privacidad, como [[Cynthia Dwork]], comenzaron a ver la privacidad desde la perspectiva de la equidad: [[Brian Christian]] escribió que los expertos han cambiado «de la pregunta de “qué saben” a la pregunta de “qué están haciendo con ello”».​
 
-La IA generativa a menudo se entrena con obras protegidas por derechos de autor no autorizadas, incluidos dominios como imágenes o código informático; la salida se utiliza luego bajo una justificación de uso justo. Los expertos no están de acuerdo sobre la validez de esta justificación durante un proceso legal, ya que podría depender del propósito y el carácter del uso de la obra protegida por derechos de autor y del efecto sobre el mercado potencial de la obra protegida.​En 2023, escritores como John Grisham y Jonathan Franzen demandaron a las empresas de IA por usar sus obras para entrenar IA generativa.​​ En 2024, 200 artistas escribieron una carta abierta que solicitaba «parar el asalto a la creatividad humana».​
+La IA generativa a menudo se entrena con obras protegidas por derechos de autor no autorizadas, incluidos dominios como imágenes o código informático; la salida se utiliza luego bajo una justificación de uso justo. Los expertos no están de acuerdo sobre la validez de esta justificación durante un proceso legal, ya que podría depender del propósito y el carácter del uso de la obra protegida por derechos de autor y del efecto sobre el mercado potencial de la obra protegida.​En 2023, escritores como [[John Grisham]] y [[Jonathan Franzen]] demandaron a las empresas de IA por usar sus obras para entrenar IA generativa.​​ En 2024, 200 artistas escribieron una carta abierta que solicitaba «parar el asalto a la creatividad humana».​
 
 ## Normativa para su uso en el entorno educativo
 
@@ -382,19 +382,19 @@ Definir responsabilidades y procedimientos claros para el uso de la IA.
 
 Esta normativa se aplica a todas las instituciones educativas y docentes que utilizan la IA en el aula, así como a los proveedores de tecnología educativa que ofrecen soluciones basadas en IA.
 
-Organizaciones como UNESCO Ethics AI (2020), UNESCO Education & AI (2021), Beijin Consensus, OCDE (2021), Comisión Europea (2019), European Parliament Report AI Education (2021), UNICEF (2021) y Foro Económico Mundial (2019) han mostrado preocupación por implementar lineamientos sobre la ética y la IA en el entorno educativo.​ En 2024, la Universidad Nacional de Costa rica elaboró y publicó​ la Declaración de Heredia: principios sobre el uso de inteligencia artificial en la edición científica, referida a la publicación científica, en la que propone una serie de consideraciones para el uso responsable de la inteligencia artificial (IA), se alienta a transparentar el uso de la IA para un ejercicio claro, trazable y reproducible del conocimiento y se llama la atención sobre los retos que supone la incorporación de la IA a la edición científica en cuanto a la diversidad de opciones, el evitar la propagación de sesgos y desinformación, y el respeto a la propiedad intelectual.
+Organizaciones como [[UNESCO]] Ethics AI (2020), [[UNESCO]] Education & AI (2021), Beijin Consensus, OCDE (2021), Comisión Europea (2019), European Parliament Report AI Education (2021), UNICEF (2021) y Foro Económico Mundial (2019) han mostrado preocupación por implementar lineamientos sobre la ética y la IA en el entorno educativo.​ En 2024, la Universidad Nacional de Costa rica elaboró y publicó​ la Declaración de Heredia: principios sobre el uso de inteligencia artificial en la edición científica, referida a la publicación científica, en la que propone una serie de consideraciones para el uso responsable de la inteligencia artificial (IA), se alienta a transparentar el uso de la IA para un ejercicio claro, trazable y reproducible del conocimiento y se llama la atención sobre los retos que supone la incorporación de la IA a la edición científica en cuanto a la diversidad de opciones, el evitar la propagación de sesgos y desinformación, y el respeto a la propiedad intelectual.
 
 El uso de la IA en el entorno educativo debe regirse por los siguientes principios éticos y valores:
 
 Transparencia: Las decisiones tomadas por algoritmos de IA deben ser comprensibles y explicables.
 
-Equidad: La IA no debe discriminar a ningún estudiante ni grupo de estudiantes.
+[[Equidad]]: La IA no debe discriminar a ningún estudiante ni grupo de estudiantes.
 
-Privacidad: Los datos de los estudiantes deben ser protegidos y utilizados de manera responsable.
+[[Privacidad]]: Los datos de los estudiantes deben ser protegidos y utilizados de manera responsable.
 
-Responsabilidad: Los docentes y las instituciones son responsables de las decisiones tomadas con la ayuda de la IA.
+[[Responsabilidad]]: Los docentes y las instituciones son responsables de las decisiones tomadas con la ayuda de la IA.
 
-Honestidad: El contenido creado por los estudiantes debe ser original sin caer en el plagio.​
+[[Honestidad]]: El contenido creado por los estudiantes debe ser original sin caer en el plagio.​
 
 Mejora del aprendizaje: La IA debe utilizarse para mejorar la calidad de la educación y el aprendizaje.
 
@@ -410,7 +410,7 @@ Supervisión: Se debe establecer un proceso de supervisión para garantizar que 
 
 Así como tiene muchos beneficios también nos encontramos con diferentes riesgos a los que la educación está expuesta con su uso.
 
-Sesgos y discriminación: Al solo recoger información de las bases de datos y textos que procesa de Internet corre el riesgo de aprender cualquier sesgo cognitivo que se encuentre en dicha información.
+Sesgos y discriminación: Al solo recoger información de las bases de datos y textos que procesa de [[Internet]] corre el riesgo de aprender cualquier sesgo cognitivo que se encuentre en dicha información.
 
 La no privacidad de los datos: El riesgo de un ciberataque se incrementa cuando no hay protocolos de seguridad adecuados en el manejo de la IA.​
 
@@ -440,7 +440,7 @@ Esta normativa se presenta como un marco general que deberá ser adaptado y ampl
 
 Esta normativa tiene como objetivo garantizar que la IA sea utilizada de manera ética y responsable en el aula, promoviendo el beneficio de los estudiantes y el avance de la educación. Su cumplimiento es esencial para lograr una implementación exitosa de la IA en el entorno educativo.
 
-## Aprendizaje automatizado y aprendizaje profundo
+## [[Aprendizaje]] automatizado y aprendizaje profundo
 
 En cuanto a la naturaleza del aprendizaje, la IA puede subdividirse en dos campos conceptualmente distintos:
 
@@ -456,7 +456,7 @@ Alrededor del mundo han comenzado a surgir distintas legislaciones con el fin de
 
 El 5 de febrero de 2020, la Oficina del Derecho de Autor de los Estados Unidos y la OMPI asistieron a un simposio donde observaron de manera profunda cómo la comunidad creativa utiliza la inteligencia artificial (IA) para crear trabajo original. Se discutieron las relaciones entre la inteligencia artificial y el derecho de autor, qué nivel de involucramiento es suficiente para que el trabajo resultante sea válido para protección de derechos de autor; los desafíos y consideraciones de usar inputs con derechos de autor para entrenar una máquina; y el futuro de la inteligencia artificial y sus políticas de derecho de autor.​​
 
-El director general de la OMPI, Francis Gurry, presentó su preocupación ante la falta de atención que hay frente a los derechos de propiedad intelectual, pues la gente suele dirigir su interés hacia temas de ciberseguridad, privacidad e integridad de datos al hablar de la inteligencia artificial. Así mismo, Gurry cuestionó si el crecimiento y la sostenibilidad de la tecnología IA nos guiaría a desarrollar dos sistemas para manejar derechos de autor- uno para creaciones humanas y otro para creaciones de máquinas.​
+El director general de la OMPI, [[Francis Gurry]], presentó su preocupación ante la falta de atención que hay frente a los derechos de propiedad intelectual, pues la gente suele dirigir su interés hacia temas de ciberseguridad, privacidad e integridad de datos al hablar de la inteligencia artificial. Así mismo, Gurry cuestionó si el crecimiento y la sostenibilidad de la tecnología IA nos guiaría a desarrollar dos sistemas para manejar derechos de autor- uno para creaciones humanas y otro para creaciones de máquinas.​
 
 Aún hay una falta de claridad en el entendimiento alrededor de la inteligencia artificial. Los desarrollos tecnológicos avanzan a paso rápido, aumentando su complejidad en políticas, legalidades y problemas éticos que se merecen la atención global. Antes de encontrar una manera de trabajar con los derechos de autor, es necesario entenderlo correctamente, pues aún no se sabe cómo juzgar la originalidad de un trabajo que nace de una composición de una serie de fragmentos de otros trabajos.
 
@@ -474,31 +474,31 @@ La conversación acerca de la propiedad intelectual tendrá que continuar hasta 
 
 A continuación se incluye alguna obra que tiene como motivo central la inteligencia artificial.
 
-Yo, Robot (1950), de Isaac Asimov: novela que consta de nueve historias ambientas entre los años de 1940 y 1950, cada uno cuenta con personajes distintos pero que siguen la misma temática a través del seguimiento de las Tres Leyes de la Robótica, en donde se plantea tanto su cumplimiento como la creación de problemas alternos que los mismos robots generan y de esta manera demostrar que la tecnología siempre puede estar un paso adelante del pensamiento y lógica humana. También sigue el hilo argumentativo a través de una entrevista con una psicóloga de robots la cual va relatando el surgimiento de los robots y suponiendo cómo será el desenvolvimiento del ser humano en un mundo en donde la tecnología se esté superando cada vez más.
+Yo, [[Robot]] (1950), de [[Isaac Asimov]]: novela que consta de nueve historias ambientas entre los años de 1940 y 1950, cada uno cuenta con personajes distintos pero que siguen la misma temática a través del seguimiento de las Tres Leyes de la [[Robótica]], en donde se plantea tanto su cumplimiento como la creación de problemas alternos que los mismos robots generan y de esta manera demostrar que la tecnología siempre puede estar un paso adelante del pensamiento y lógica humana. También sigue el hilo argumentativo a través de una entrevista con una psicóloga de robots la cual va relatando el surgimiento de los robots y suponiendo cómo será el desenvolvimiento del ser humano en un mundo en donde la tecnología se esté superando cada vez más.
 
-Galatea 2.2 (1995) de Richard Powers: novela que explora la relación entre inteligencia artificial y literatura. La trama sigue al protagonista, quien participa en un experimento con un modelo computacional llamado «Helen» para enseñarle a comunicarse como un humano. A través de esta interacción, se plantean cuestiones profundas sobre la conciencia y la emoción en un entorno tecnológico.
+Galatea 2.2 (1995) de [[Richard Powers]]: novela que explora la relación entre inteligencia artificial y literatura. La trama sigue al protagonista, quien participa en un experimento con un modelo computacional llamado «Helen» para enseñarle a comunicarse como un humano. A través de esta interacción, se plantean cuestiones profundas sobre la conciencia y la emoción en un entorno tecnológico.
 
-La era del diamante (1996) de Neal Stephenson, la inteligencia artificial juega un papel crucial en la trama a través del Manual ilustrado para jovencitas diseñado por John Percival Hackworth. Este instrumento interactivo es capaz de adaptarse dinámicamente a las circunstancias de la niña mediante la inteligencia artificial.
+[[La era del diamante]] (1996) de [[Neal Stephenson]], la inteligencia artificial juega un papel crucial en la trama a través del Manual ilustrado para jovencitas diseñado por John Percival Hackworth. Este instrumento interactivo es capaz de adaptarse dinámicamente a las circunstancias de la niña mediante la inteligencia artificial.
 
-El primer libro (2013), de Antonio Palacios Rojo: una novela dialogada que satiriza el uso de la IA en la creación artística unos diez años antes de la irrupción de estas herramientas inteligentes.​
+[[El primer libro]] (2013), de [[Antonio Palacios Rojo]]: una novela dialogada que satiriza el uso de la IA en la creación artística unos diez años antes de la irrupción de estas herramientas inteligentes.​
 
 ### En el cine
 
 La inteligencia artificial está cada vez más presente en la sociedad, la evolución de la tecnología es una realidad y con ello, la producción de películas sobre esta temática. Cabe destacar, que lleva habiendo piezas audiovisuales sobre inteligencia artificial desde hace mucho tiempo, ya sea incluyendo personajes o mostrando un trasfondo moral y ético. A continuación, se muestra una lista de algunas de las principales películas que tratan este tema:
 
-The Terminator (1984): En esta película el argumento se basa en el desarrollo de un microchip capaz de dotar de inteligencia artificial a robots que luego se rebelan contra la humanidad. Se trata de una de las películas más populares sobre una hipotética guerra entre humanos y robots inteligentes capaces de crearse a sí mismos.
+[[The Terminator]] (1984): En esta película el argumento se basa en el desarrollo de un microchip capaz de dotar de inteligencia artificial a robots que luego se rebelan contra la humanidad. Se trata de una de las películas más populares sobre una hipotética guerra entre humanos y robots inteligentes capaces de crearse a sí mismos.
 
-Matrix (1999): En esta película Keanu Reeves interpreta a Thomas Anderson / Neo, un programador de día y hacker de noche que trata de desentrañar la verdad oculta tras una simulación conocida como «Matrix». Esta realidad simulada es producto de programas de inteligencia artificial que terminan esclavizando a la humanidad y utilizando sus cuerpos como fuente de energía.
+[[Matrix]] (1999): En esta película Keanu Reeves interpreta a Thomas Anderson / Neo, un programador de día y hacker de noche que trata de desentrañar la verdad oculta tras una simulación conocida como «[[Matrix]]». Esta realidad simulada es producto de programas de inteligencia artificial que terminan esclavizando a la humanidad y utilizando sus cuerpos como fuente de energía.
 
-Inteligencia artificial (2001): Un trabajador de Cybertronics Manufacturing adopta a David de forma momentánea para, así, estudiar su comportamiento. Tanto él como su esposa acaban por tratar al niño artificial como a su propio hijo biológico. A pesar del cariño que le profesan, David siente la necesidad de escapar de su hogar e iniciar un viaje que le ayude a descubrir a quién pertenece realmente. Ante sus perplejos ojos, se abrirá un nuevo mundo oscuro, injusto, violento, insensible... Algo que le resultará difícil aceptar. Se pregunta cosas como: ¿cómo es posible que sienta algo tan real como el amor y que él sea artificial? y fue nominado al Premio Oscar.
+[[Inteligencia]] artificial (2001): Un trabajador de Cybertronics Manufacturing adopta a David de forma momentánea para, así, estudiar su comportamiento. Tanto él como su esposa acaban por tratar al niño artificial como a su propio hijo biológico. A pesar del cariño que le profesan, David siente la necesidad de escapar de su hogar e iniciar un viaje que le ayude a descubrir a quién pertenece realmente. Ante sus perplejos ojos, se abrirá un nuevo mundo oscuro, injusto, violento, insensible... Algo que le resultará difícil aceptar. Se pregunta cosas como: ¿cómo es posible que sienta algo tan real como el amor y que él sea artificial? y fue nominado al [[Premio Oscar]].
 
-Minority Report (2002): La película sobre IA de Steven Spielberg, Minority Report, sigue a John (Tom Cruise), un agente de la ley, que es acusado de un asesinato que cometerá en el futuro. En esta película de principios de los años 2000, el protagonista utiliza una tecnología del futuro que permite a la policía atrapar a los criminales antes de que hayan cometido un delito. En Minority Report, la IA se representa a través de los Precogs, los gemelos que poseen habilidades psíquicas. Los Precogs ven los asesinatos antes de que se produzcan, lo que permite a las fuerzas del orden perseguir el crimen antes de que se cometa. En lugar de los robots físicos de IA tipo cyborg, aquí explora la IA mediante el uso de seres humanos.
+[[Minority Report]] (2002): La película sobre IA de Steven Spielberg, [[Minority Report]], sigue a John (Tom Cruise), un agente de la ley, que es acusado de un asesinato que cometerá en el futuro. En esta película de principios de los años 2000, el protagonista utiliza una tecnología del futuro que permite a la policía atrapar a los criminales antes de que hayan cometido un delito. En [[Minority Report]], la IA se representa a través de los Precogs, los gemelos que poseen habilidades psíquicas. Los Precogs ven los asesinatos antes de que se produzcan, lo que permite a las fuerzas del orden perseguir el crimen antes de que se cometa. En lugar de los robots físicos de IA tipo cyborg, aquí explora la IA mediante el uso de seres humanos.
 
-Yo, robot (2004): Esta película de ciencia ficción protagonizada por Will Smith está ambientada en 2035, en una sociedad donde los humanos viven en perfecta armonía con robots inteligentes en los que confían para todo. Los problemas emergen a la superficie cuando un error en la programación de un superordenador llamado VIKI le lleva a creer que los robots deben tomar las riendas para proteger a la humanidad de sí misma.
+[[Yo, robot]] (2004): Esta película de ciencia ficción protagonizada por Will Smith está ambientada en 2035, en una sociedad donde los humanos viven en perfecta armonía con robots inteligentes en los que confían para todo. Los problemas emergen a la superficie cuando un error en la programación de un superordenador llamado VIKI le lleva a creer que los robots deben tomar las riendas para proteger a la humanidad de sí misma.
 
-Her (2013): Esta película de Spike Jonze relata la historia de un escritor de cartas quien está solo y a punto de divorciarse. Este personaje lo representó el galardonado Joaquin Phoenix. Este hombre compró un sistema operativo con inteligencia artificial para utilizarlo a fin de complacer a todos los usuarios y adaptarse a sus necesidades. Sin embargo, el resultado es que desarrolla un sentimiento romántico con Samantha. Quien es la voz femenina del sistema operativo.
+[[Her]] (2013): Esta película de Spike Jonze relata la historia de un escritor de cartas quien está solo y a punto de divorciarse. Este personaje lo representó el galardonado Joaquin Phoenix. Este hombre compró un sistema operativo con inteligencia artificial para utilizarlo a fin de complacer a todos los usuarios y adaptarse a sus necesidades. Sin embargo, el resultado es que desarrolla un sentimiento romántico con Samantha. Quien es la voz femenina del sistema operativo.
 
-Avengers: Era de Ultrón (2015): En esta segunda entrega de las películas de Avengers, dirigidas por Joseph Hill Whedon y basadas en los cómics escritos por Stan Lee, se demuestra como es que la inteligencia artificial albergada dentro del cetro de Loki, la cual se tenía como objetivo el convertirla en una protección para la Tierra y recibió por nombre Ultrón, al ser conectada con JARVIS, la IA desarrollada por Stark, pudo obtener la suficiente información para comenzar a pensar de manera independiente y ser capaz de ir actualizando tanto su sistema como su cuerpo logrando controlar un ejército de robots con el objetivo de destruir a la humanidad y así ser lo único que quedara en la Tierra para, posteriormente, dominarla y controlarla.
+Avengers: Era de Ultrón (2015): En esta segunda entrega de las películas de Avengers, dirigidas por Joseph Hill Whedon y basadas en los cómics escritos por [[Stan Lee]], se demuestra como es que la inteligencia artificial albergada dentro del cetro de Loki, la cual se tenía como objetivo el convertirla en una protección para la Tierra y recibió por nombre Ultrón, al ser conectada con JARVIS, la IA desarrollada por Stark, pudo obtener la suficiente información para comenzar a pensar de manera independiente y ser capaz de ir actualizando tanto su sistema como su cuerpo logrando controlar un ejército de robots con el objetivo de destruir a la humanidad y así ser lo único que quedara en la Tierra para, posteriormente, dominarla y controlarla.
 
 Ex Machina (2015): En la interpretación de Alicia Vikander, increíblemente editada, como Ava, encontramos un probable robot a prueba de Turing escondido en la mansión de un genio, Nathan, un poco loco. Y es que, hablamos de una creación extraña que se siente totalmente real y a la vez inhumana. Está considerada como una de las mejores películas que tratan la inteligencia artificial. Esto se debe principalmente a que parece cubrir todo el concepto IA integrado en una película: el protagonista es un sustituto del ser humano y nos adentra en multitud de argumentos morales que rodean a esta, al tiempo que vemos un arco narrativo de thriller que, desde luego, acaba enganchándonos. Desde luego aquí la representación del personaje de la IA no es blanco o negro. Ava no es buena, pero tampoco es del todo mala. Y en esto, el público se queda reflexionando sobre cuestiones profundas sobre la naturaleza de la IA.
 
@@ -510,57 +510,57 @@ Ex Machina (2015): En la interpretación de Alicia Vikander, increíblemente edi
 
 Arenas Correa, J. D. (2022). Otros sujetos de propiedad y de cargas fiscales. Revista CES Derecho, 13(3), 1–5. https://doi.org/10.21615/cesder.7132
 
-Bellman, Richard (1978). An introduction to artificial intelligence: can computers think? (en inglés). San Francisco: Boyd & Fraser Pub. Co. ISBN 978-0878350667. 
+Bellman, Richard (1978). An introduction to artificial intelligence: can computers think? (en inglés). San Francisco: Boyd & Fraser Pub. Co. [[ISBN]] 978-0878350667. 
 
-Nilsson, Nils J. (1998). Artificial Intelligence: A New Synthesis (en inglés) (4.ª edición). San Francisco: Kaufmann. ISBN 978-1558604674. 
+Nilsson, Nils J. (1998). Artificial Intelligence: A New Synthesis (en inglés) (4.ª edición). San Francisco: Kaufmann. [[ISBN]] 978-1558604674. 
 
-Ríos, Mauro D. (20 de septiembre de 2023).  SSRN, ed. Inteligencia Artificial: Cuando la tecnología es el menor de los paradigmas (1.ª edición). New York: SSRN-ELSEVIER. Consultado el 24 de agosto de 2024. 
+Ríos, Mauro D. (20 de septiembre de 2023).  SSRN, ed. [[Inteligencia]] Artificial: Cuando la tecnología es el menor de los paradigmas (1.ª edición). New York: SSRN-ELSEVIER. Consultado el 24 de agosto de 2024. 
 
-Rich, Elaine; Knight, Kevin (1991). Artificial intelligence (en inglés) (2.ª edición). New York: McGraw-Hill. ISBN 978-0070522633. 
+Rich, Elaine; Knight, Kevin (1991). Artificial intelligence (en inglés) (2.ª edición). New York: McGraw-Hill. [[ISBN]] 978-0070522633. 
 
-Russell, Stuart J.; Norvig, Peter Norvig (2009). Artificial intelligence: a modern approach (en inglés) (3.ª edición). Upper Saddle River, N.J.: Prentice Hall. ISBN 0-13-604259-7. 
+Russell, Stuart J.; Norvig, [[Peter Norvig]] (2009). Artificial intelligence: a modern approach (en inglés) (3.ª edición). Upper Saddle River, N.J.: Prentice Hall. [[ISBN]] 0-13-604259-7. 
 
-Winston, Patrick Henry (1992). Artificial intelligence (en inglés) (3.ª edición). Reading, Mass.: Addison-Wesley Pub. Co. ISBN 978-0201533774. 
+Winston, Patrick Henry (1992). Artificial intelligence (en inglés) (3.ª edición). Reading, Mass.: Addison-Wesley Pub. Co. [[ISBN]] 978-0201533774. 
 
-Russell, Stuart J.; Norvig, Peter (2003), Artificial Intelligence: A Modern Approach (en inglés) (2ª edición), Upper Saddle River, New Jersey: Prentice Hall, ISBN 0-13-790395-2 .
+Russell, Stuart J.; Norvig, Peter (2003), Artificial Intelligence: A Modern Approach (en inglés) (2ª edición), Upper Saddle River, New Jersey: Prentice Hall, [[ISBN]] 0-13-790395-2 .
 
-Poole, David; Mackworth, Alan; Goebel, Randy (1998). Computational Intelligence: A Logical Approach (en inglés). New York: Oxford University Press. ISBN 978-0-19-510270-3. Archivado desde el original el 26 de julio de 2020. Consultado el 22 de agosto de 2020. 
+Poole, David; Mackworth, Alan; Goebel, Randy (1998). Computational Intelligence: A Logical Approach (en inglés). New York: Oxford University Press. [[ISBN]] 978-0-19-510270-3. Archivado desde el original el 26 de julio de 2020. Consultado el 22 de agosto de 2020. 
 
-Luger, George; Stubblefield, William (2004). Artificial Intelligence: Structures and Strategies for Complex Problem Solving (en inglés) (5ª edición). Benjamin/Cummings. ISBN 978-0-8053-4780-7. Archivado desde el original el 26 de julio de 2020. Consultado el 17 de diciembre de 2019. 
+Luger, George; Stubblefield, William (2004). Artificial Intelligence: Structures and Strategies for Complex Problem Solving (en inglés) (5ª edición). Benjamin/Cummings. [[ISBN]] 978-0-8053-4780-7. Archivado desde el original el 26 de julio de 2020. Consultado el 17 de diciembre de 2019. 
 
 Wason, P. C.; Shapiro, D. (1966). New horizons in psychology (en inglés). Harmondsworth: Penguin. Archivado desde el original el 26 de julio de 2020. Consultado el 18 de noviembre de 2019. 
 
-Kahneman, Daniel; Slovic, D.; Tversky, Amos (1982). «Judgment under uncertainty: Heuristics and biases». Science (en inglés) 185 (4157) (New York: Cambridge University Press). pp. 1124-1131. ISBN 978-0-521-28414-1. PMID 17835457. S2CID 143452957. doi:10.1126/science.185.4157.1124. 
+Kahneman, Daniel; Slovic, D.; Tversky, Amos (1982). «Judgment under uncertainty: Heuristics and biases». Science (en inglés) 185 (4157) (New York: Cambridge University Press). pp. 1124-1131. [[ISBN]] 978-0-521-28414-1. PMID 17835457. S2CID 143452957. doi:10.1126/science.185.4157.1124. 
 
 «ACM Computing Classification System: Artificial intelligence» (en inglés). ACM. 1998. Archivado desde el original el 12 de octubre de 2007. Consultado el 30 de agosto de 2007. 
 
-Lakoff, George; Núñez, Rafael E. (2000). Where Mathematics Comes From: How the Embodied Mind Brings Mathematics into Being (en inglés). Basic Books. ISBN 978-0-465-03771-1. 
+Lakoff, George; Núñez, Rafael E. (2000). Where Mathematics Comes From: How the Embodied Mind Brings Mathematics into Being (en inglés). Basic Books. [[ISBN]] 978-0-465-03771-1. 
 
-SAS. (2018, 27 septiembre). Inteligencia Artificial: Qué es y Por Qué Importa. https://www.sas.com/es_mx/insights/analytics/what-is-artificial-intelligence.html
+SAS. (2018, 27 septiembre). [[Inteligencia]] Artificial: Qué es y Por Qué Importa. https://www.sas.com/es_mx/insights/analytics/what-is-artificial-intelligence.html
 
-Grupo Iberdrola. (2019, 17 junio). ¿Somos conscientes de los retos y principales aplicaciones de la Inteligencia Artificial? Iberdrola. https://www.iberdrola.com/innovacion/que-es-inteligencia-artificial
+Grupo Iberdrola. (2019, 17 junio). ¿Somos conscientes de los retos y principales aplicaciones de la [[Inteligencia]] Artificial? Iberdrola. https://www.iberdrola.com/innovacion/que-es-inteligencia-artificial
 
 Oracle. (2021, 13 enero). ¿Qué es la inteligencia artificial? https://www.oracle.com/mx/artificial-intelligence/what-is-ai/
 
-Valinsky, Jordan (11 de abril de 2019), Amazon reportedly employs thousands of people to listen to your Alexa conversations .
+Valinsky, Jordan (11 de abril de 2019), [[Amazon]] reportedly employs thousands of people to listen to your Alexa conversations .
 
-Russell, Stuart J.; Norvig, Peter. (2021). Artificial Intelligence: A Modern Approach (4ª edición). Hoboken: Pearson. ISBN 978-0134610993. LCCN 20190474. 
+Russell, Stuart J.; Norvig, Peter. (2021). Artificial Intelligence: A Modern Approach (4ª edición). Hoboken: Pearson. [[ISBN]] 978-0134610993. LCCN 20190474. 
 
-Christian, Brian (2020). The Alignment Problem: Machine learning and human values. W. W. Norton & Company. ISBN 978-0-393-86833-3. OCLC 1233266753. 
+Christian, Brian (2020). [[The Alignment Problem]]: Machine learning and human values. W. W. Norton & Company. [[ISBN]] 978-0-393-86833-3. [[OCLC]] 1233266753. 
 
 Vincent, James (15 de noviembre de 2022). «The scary truth about AI copyright is nobody knows what will happen next». The Verge. Archivado desde el original el 19 de junio de 2023. Consultado el 19 de junio de 2023. 
 
 Reisner, Alex (19 de agosto de 2023), «Revealed: The Authors Whose Pirated Books are Powering Generative AI», The Atlantic .
 
-Alter, Alexandra; Harris, Elizabeth A. (20 de septiembre de 2023), «Franzen, Grisham and Other Prominent Authors Sue OpenAI», The New York Times .
+Alter, Alexandra; Harris, Elizabeth A. (20 de septiembre de 2023), «Franzen, Grisham and Other Prominent Authors Sue [[OpenAI]]», The New York Times .
 
 ## Enlaces externos
 
- Wikilibros alberga un libro o manual sobre Ingeniería del conocimiento.
+ [[Wikilibros]] alberga un libro o manual sobre [[[[Ingeniería]] del conocimiento]].
 
 ---
 
 ## Referencias
 
 - **Fuente:** [https://es.wikipedia.org/wiki/Inteligencia_artificial](https://es.wikipedia.org/wiki/Inteligencia_artificial)
-- **Generado:** 2025-10-13 01:26:43
+- **Generado:** 2025-10-13 02:21:33
