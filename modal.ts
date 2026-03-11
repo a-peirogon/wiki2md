@@ -14,6 +14,7 @@ export class ExportModal extends Modal {
   private selectedLang: string;
   private selectedFolder: string;
   private isLoading = false;
+  private prefill: string;              // Texto seleccionado en el editor (puede ser "")
 
   // Referencias DOM
   private statusEl!: HTMLElement;
@@ -23,10 +24,17 @@ export class ExportModal extends Modal {
   private suggestionsEl!: HTMLElement;
   private suggestTimeout: number | null = null;
 
-  constructor(app: App, settings: PluginSettings, onExported?: (path: string) => void) {
+  constructor(
+    app: App,
+    settings: PluginSettings,
+    onExported?: (path: string) => void,
+              prefill = "",                        // ← nuevo parámetro opcional
+  ) {
     super(app);
     this.settings = settings;
     this.onExported = onExported;
+    this.prefill = prefill.trim().slice(0, 120); // máx 120 chars por seguridad
+    this.topic = this.prefill;
     this.selectedSource = settings.defaultSource;
     this.selectedLang = settings.defaultLang;
     this.selectedFolder = settings.defaultFolder;
@@ -47,8 +55,11 @@ export class ExportModal extends Modal {
   // ── UI ──────────────────────────────────────────────────────────────────
 
   private buildUI(root: HTMLElement) {
-    // Header
-    root.createEl("h2", { cls: "enc-title", text: "📚 Exportar artículo" });
+    // Header — título diferente si viene de una selección
+    const titleText = this.prefill
+    ? `🔍 Buscar en enciclopedia: "${this.prefill}"`
+    : "📚 Exportar artículo";
+    root.createEl("h2", { cls: "enc-title", text: titleText });
 
     // Topic input
     const searchWrap = root.createDiv({ cls: "enc-search-wrap" });
@@ -58,6 +69,15 @@ export class ExportModal extends Modal {
       placeholder: "Ej: Immanuel Kant, Free Will, Consciousness…",
     });
     this.topicInput = topicInput;
+
+    // Si venimos de una selección, prellenar y seleccionar el texto
+    if (this.prefill) {
+      topicInput.value = this.prefill;
+      topicInput.select();
+      // Lanzar sugerencias inmediatamente sin esperar al debounce
+      window.setTimeout(() => this.loadSuggestions(), 0);
+    }
+
     topicInput.focus();
 
     // Suggestions dropdown
@@ -72,73 +92,73 @@ export class ExportModal extends Modal {
       if (e.key === "Enter") this.doExport();
     });
 
-    // Options row
-    const optRow = root.createDiv({ cls: "enc-options-row" });
+      // Options row
+      const optRow = root.createDiv({ cls: "enc-options-row" });
 
-    // Source selector
-    const sourceWrap = optRow.createDiv({ cls: "enc-option" });
-    sourceWrap.createEl("label", { text: "Fuente" });
-    const sourceSelect = sourceWrap.createEl("select", { cls: "enc-select" });
-    for (const { key, displayName } of listSources()) {
-      const opt = sourceSelect.createEl("option", { value: key, text: displayName });
-      if (key === this.selectedSource) opt.selected = true;
-    }
-    sourceSelect.addEventListener("change", () => {
-      this.selectedSource = sourceSelect.value;
-      // Auto-ajustar idioma para SEP/IEP
-      if (["sep", "iep"].includes(this.selectedSource)) {
-        this.selectedLang = "en";
-        langInput.value = "en";
+      // Source selector
+      const sourceWrap = optRow.createDiv({ cls: "enc-option" });
+      sourceWrap.createEl("label", { text: "Fuente" });
+      const sourceSelect = sourceWrap.createEl("select", { cls: "enc-select" });
+      for (const { key, displayName } of listSources()) {
+        const opt = sourceSelect.createEl("option", { value: key, text: displayName });
+        if (key === this.selectedSource) opt.selected = true;
       }
-    });
+      sourceSelect.addEventListener("change", () => {
+        this.selectedSource = sourceSelect.value;
+        // Auto-ajustar idioma para SEP/IEP
+        if (["sep", "iep"].includes(this.selectedSource)) {
+          this.selectedLang = "en";
+          langInput.value = "en";
+        }
+      });
 
-    // Language input
-    const langWrap = optRow.createDiv({ cls: "enc-option" });
-    langWrap.createEl("label", { text: "Idioma" });
-    const langInput = langWrap.createEl("input", {
-      type: "text",
-      cls: "enc-lang-input",
-      value: this.selectedLang,
-      placeholder: "es",
-    });
-    langInput.addEventListener("change", () => {
-      this.selectedLang = langInput.value.trim() || "es";
-    });
+      // Language input
+      const langWrap = optRow.createDiv({ cls: "enc-option" });
+      langWrap.createEl("label", { text: "Idioma" });
+      const langInput = langWrap.createEl("input", {
+        type: "text",
+        cls: "enc-lang-input",
+        value: this.selectedLang,
+        placeholder: "es",
+      });
+      langInput.addEventListener("change", () => {
+        this.selectedLang = langInput.value.trim() || "es";
+      });
 
-    // Folder input
-    const folderWrap = root.createDiv({ cls: "enc-folder-wrap" });
-    folderWrap.createEl("label", { text: "Guardar en (carpeta del baúl)" });
-    const folderInput = folderWrap.createEl("input", {
-      type: "text",
-      cls: "enc-folder-input",
-      value: this.selectedFolder,
-      placeholder: "Filosofía/Enciclopedias (dejar vacío = raíz)",
-    });
-    folderInput.addEventListener("change", () => {
-      this.selectedFolder = folderInput.value.trim();
-    });
+      // Folder input
+      const folderWrap = root.createDiv({ cls: "enc-folder-wrap" });
+      folderWrap.createEl("label", { text: "Guardar en (carpeta del baúl)" });
+      const folderInput = folderWrap.createEl("input", {
+        type: "text",
+        cls: "enc-folder-input",
+        value: this.selectedFolder,
+        placeholder: "Filosofía/Enciclopedias (dejar vacío = raíz)",
+      });
+      folderInput.addEventListener("change", () => {
+        this.selectedFolder = folderInput.value.trim();
+      });
 
-    // Status
-    this.statusEl = root.createDiv({ cls: "enc-status" });
+      // Status
+      this.statusEl = root.createDiv({ cls: "enc-status" });
 
-    // Preview panel
-    this.previewEl = root.createDiv({ cls: "enc-preview" });
-    this.previewEl.hide();
+      // Preview panel
+      this.previewEl = root.createDiv({ cls: "enc-preview" });
+      this.previewEl.hide();
 
-    // Action buttons
-    const actions = root.createDiv({ cls: "enc-actions" });
+      // Action buttons
+      const actions = root.createDiv({ cls: "enc-actions" });
 
-    const previewBtn = actions.createEl("button", {
-      cls: "enc-btn enc-btn-secondary",
-      text: "Vista previa",
-    });
-    previewBtn.addEventListener("click", () => this.doPreview());
+      const previewBtn = actions.createEl("button", {
+        cls: "enc-btn enc-btn-secondary",
+        text: "Vista previa",
+      });
+      previewBtn.addEventListener("click", () => this.doPreview());
 
-    this.exportBtn = actions.createEl("button", {
-      cls: "enc-btn enc-btn-primary",
-      text: "Exportar al baúl →",
-    });
-    this.exportBtn.addEventListener("click", () => this.doExport());
+      this.exportBtn = actions.createEl("button", {
+        cls: "enc-btn enc-btn-primary",
+        text: "Exportar al baúl →",
+      });
+      this.exportBtn.addEventListener("click", () => this.doExport());
   }
 
   // ── Suggestions ─────────────────────────────────────────────────────────
@@ -184,7 +204,7 @@ export class ExportModal extends Modal {
   private async fetchArticle() {
     const topic = this.topic.trim();
     if (!topic) {
-      this.setStatus("⚠ Escribe un tema para buscar.", "warn");
+      this.setStatus("Escribe un tema para buscar.", "warn");
       return null;
     }
 
@@ -196,7 +216,7 @@ export class ExportModal extends Modal {
       const article = await src.fetch(topic);
 
       if (!article) {
-        this.setStatus(`✗ No se encontró "${topic}". Prueba otro término o fuente.`, "error");
+        this.setStatus(`No se encontró "${topic}". Prueba otro término o fuente.`, "error");
         return null;
       }
 
@@ -209,9 +229,9 @@ export class ExportModal extends Modal {
           this.settings.wikilinks.minWordLength,
         );
         article.content = text;
-        this.setStatus(`✓ Artículo obtenido. ${applied} wikilinks aplicados.`, "ok");
+        this.setStatus(`Artículo obtenido. ${applied} wikilinks aplicados.`, "ok");
       } else {
-        this.setStatus("✓ Artículo obtenido.", "ok");
+        this.setStatus("Artículo obtenido.", "ok");
       }
 
       return article;
@@ -261,13 +281,13 @@ export class ExportModal extends Modal {
         await this.app.vault.create(filePath, markdown);
       }
 
-      new Notice(`✅ Exportado: ${filePath}`);
-      this.setStatus(`✅ Guardado en: ${filePath}`, "ok");
+      new Notice(`Exportado: ${filePath}`);
+      this.setStatus(`Guardado en: ${filePath}`, "ok");
       this.onExported?.(filePath);
       this.close();
     } catch (e) {
       const msg = e instanceof Error ? e.message : String(e);
-      this.setStatus(`✗ Error al guardar: ${msg}`, "error");
+      this.setStatus(`Error al guardar: ${msg}`, "error");
     }
   }
 
@@ -282,6 +302,6 @@ export class ExportModal extends Modal {
   private setLoading(loading: boolean) {
     this.isLoading = loading;
     this.exportBtn.disabled = loading;
-    this.exportBtn.setText(loading ? "Buscando…" : "Exportar al baúl →");
+    this.exportBtn.setText(loading ? "Buscando…" : "Exportar al baúl");
   }
 }
