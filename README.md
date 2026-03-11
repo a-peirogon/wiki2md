@@ -1,4 +1,4 @@
-Plugin hecho para exportar artículos de **Wikipedia**, **SEP** (Stanford Encyclopedia of Philosophy) e **IEP** directamente al baúl de Obsidian.
+Exporta artículos de **Wikipedia**, **SEP** (Stanford Encyclopedia of Philosophy) e **IEP** directamente al baúl de Obsidian.
 
 ---
 
