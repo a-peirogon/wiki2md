@@ -1,14 +1,14 @@
-# Encyclopedia Exporter
+# Encyclopedia Importer
 
-Plugin para Obsidian que exporta artículos de **Wikipedia**, **SEP** (Stanford Encyclopedia of Philosophy) e **IEP** directamente al baúl.
+Plugin para Obsidian que exporta artículos de **Wikipedia**, **SEP** (Stanford Encyclopedia of Philosophy) e **IEP** directamente al baúl, con wikilinks inteligentes y tabla de contenidos automática.
 
 ---
 
 ## Instalación
 
-1. Crear la carpeta `.obsidian/plugins/encyclopedia-exporter/` en el baúl
+1. Crear la carpeta `.obsidian/plugins/encyclopedia-importer/` en el baúl
 2. Copiar `main.js`, `manifest.json` y `styles.css` dentro de esa carpeta
-3. En Obsidian: **Configuración > Plugins de comunidad > activar Encyclopedia Exporter**
+3. En Obsidian: **Configuración > Plugins de comunidad > activar Encyclopedia Importer**
 
 > En Mac: mostrar carpetas ocultas con `Cmd + Shift + .`  
 > En Windows: activar "Elementos ocultos" en el Explorador
@@ -19,10 +19,10 @@ Plugin para Obsidian que exporta artículos de **Wikipedia**, **SEP** (Stanford 
 
 | Acción | Cómo |
 |---|---|
-| Abrir el exportador | Icono 📖 en la barra lateral |
-| Paleta de comandos | `Ctrl+P` > "Exportar artículo" |
+| Abrir el importador | Icono 📖 en la barra lateral |
+| Paleta de comandos | `Ctrl+P` > "Importar artículo" |
 | Desde una selección | Seleccionar texto > clic derecho > "Buscar en enciclopedia" |
-| Por fuente directa | `Ctrl+P` > "Exportar desde Wikipedia / SEP / IEP" |
+| Por fuente directa | `Ctrl+P` > "Importar desde Wikipedia / SEP / IEP" |
 
 ---
 
@@ -55,7 +55,7 @@ tallados en monumentos del [[Antiguo Egipto]]...
 
 ## Configuración
 
-**Configuración > Plugins de comunidad > Encyclopedia Exporter ⚙**
+**Configuración > Plugins de comunidad > Encyclopedia Importer ⚙**
 
 | Opción | Por defecto | Descripción |
 |---|---|---|
@@ -88,3 +88,4 @@ tallados en monumentos del [[Antiguo Egipto]]...
 3. Recompilar: `npm run build`
 
 ---
+

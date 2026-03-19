@@ -10,32 +10,32 @@ export default class EncyclopediaPlugin extends Plugin {
     await this.loadSettings();
 
     // ── Ribbon icon ────────────────────────────────────────────────────
-    this.addRibbonIcon("book-open", "Exportar artículo enciclopédico", () => {
+    this.addRibbonIcon("book-open", "Importar artículo enciclopédico", () => {
       this.openExportModal();
     });
 
     // ── Comando de paleta — sin editor ─────────────────────────────────
     this.addCommand({
       id: "open-export-modal",
-      name: "Exportar artículo de enciclopedia",
+      name: "Importar artículo de enciclopedia",
       callback: () => this.openExportModal(),
     });
 
     this.addCommand({
       id: "export-wikipedia",
-      name: "Exportar desde Wikipedia",
+      name: "Importar desde Wikipedia",
       callback: () => this.openExportModal("wikipedia"),
     });
 
     this.addCommand({
       id: "export-sep",
-      name: "Exportar desde SEP (Stanford)",
+      name: "Importar desde SEP (Stanford)",
                     callback: () => this.openExportModal("sep"),
     });
 
     this.addCommand({
       id: "export-iep",
-      name: "Exportar desde IEP",
+      name: "Importar desde IEP",
       callback: () => this.openExportModal("iep"),
     });
 

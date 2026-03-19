@@ -1,10 +1,10 @@
 {
-  "id": "encyclopedia-exporter",
-  "name": "Encyclopedia Exporter",
+  "id": "encyclopedia-importer",
+  "name": "Encyclopedia Importer",
   "version": "1.0.0",
   "minAppVersion": "1.4.0",
-  "description": "Exporta artículos de Wikipedia, SEP e IEP directamente a tu baúl con wikilinks inteligentes y frontmatter YAML.",
-  "author": "obsidian-encyclopedia-exporter",
+  "description": "Importa artículos de Wikipedia, SEP e IEP con wikilinks inteligentes.",
+  "author": "a-peirogon",
   "authorUrl": "",
   "isDesktopOnly": false
 }

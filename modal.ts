@@ -58,7 +58,7 @@ export class ExportModal extends Modal {
     // Header — título diferente si viene de una selección
     const titleText = this.prefill
     ? `🔍 Buscar en enciclopedia: "${this.prefill}"`
-    : "📚 Exportar artículo";
+    : "Importar artículo";
     root.createEl("h2", { cls: "enc-title", text: titleText });
 
     // Topic input
@@ -156,7 +156,7 @@ export class ExportModal extends Modal {
 
       this.exportBtn = actions.createEl("button", {
         cls: "enc-btn enc-btn-primary",
-        text: "Exportar al baúl →",
+        text: "Importar al baúl",
       });
       this.exportBtn.addEventListener("click", () => this.doExport());
   }
@@ -204,7 +204,7 @@ export class ExportModal extends Modal {
   private async fetchArticle() {
     const topic = this.topic.trim();
     if (!topic) {
-      this.setStatus("Escribe un tema para buscar.", "warn");
+      this.setStatus("⚠ Escribe un tema para buscar.", "warn");
       return null;
     }
 
@@ -216,7 +216,7 @@ export class ExportModal extends Modal {
       const article = await src.fetch(topic);
 
       if (!article) {
-        this.setStatus(`No se encontró "${topic}". Prueba otro término o fuente.`, "error");
+        this.setStatus(`✗ No se encontró "${topic}". Prueba otro término o fuente.`, "error");
         return null;
       }
 
@@ -229,9 +229,9 @@ export class ExportModal extends Modal {
           this.settings.wikilinks.minWordLength,
         );
         article.content = text;
-        this.setStatus(`Artículo obtenido. ${applied} wikilinks aplicados.`, "ok");
+        this.setStatus(`✓ Artículo obtenido. ${applied} wikilinks aplicados.`, "ok");
       } else {
-        this.setStatus("Artículo obtenido.", "ok");
+        this.setStatus("✓ Artículo obtenido.", "ok");
       }
 
       return article;
@@ -281,13 +281,13 @@ export class ExportModal extends Modal {
         await this.app.vault.create(filePath, markdown);
       }
 
-      new Notice(`Exportado: ${filePath}`);
-      this.setStatus(`Guardado en: ${filePath}`, "ok");
+      new Notice(`✅ Importado: ${filePath}`);
+      this.setStatus(`✅ Guardado en: ${filePath}`, "ok");
       this.onExported?.(filePath);
       this.close();
     } catch (e) {
       const msg = e instanceof Error ? e.message : String(e);
-      this.setStatus(`Error al guardar: ${msg}`, "error");
+      this.setStatus(`✗ Error al guardar: ${msg}`, "error");
     }
   }
 
@@ -302,6 +302,6 @@ export class ExportModal extends Modal {
   private setLoading(loading: boolean) {
     this.isLoading = loading;
     this.exportBtn.disabled = loading;
-    this.exportBtn.setText(loading ? "Buscando…" : "Exportar al baúl");
+    this.exportBtn.setText(loading ? "Buscando…" : "Importar al baúl");
   }
 }
