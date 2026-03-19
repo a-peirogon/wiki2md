@@ -1,6 +1,6 @@
 # Encyclopedia Exporter
 
-Plugin para Obsidian que exporta artículos de **Wikipedia**, **SEP** (Stanford Encyclopedia of Philosophy) e **IEP** directamente al baúl, con wikilinks inteligentes y tabla de contenidos automática.
+Plugin para Obsidian que exporta artículos de **Wikipedia**, **SEP** (Stanford Encyclopedia of Philosophy) e **IEP** directamente al baúl.
 
 ---
 
@@ -8,7 +8,7 @@ Plugin para Obsidian que exporta artículos de **Wikipedia**, **SEP** (Stanford 
 
 1. Crear la carpeta `.obsidian/plugins/encyclopedia-exporter/` en el baúl
 2. Copiar `main.js`, `manifest.json` y `styles.css` dentro de esa carpeta
-3. En Obsidian: **Configuración → Plugins de comunidad → activar Encyclopedia Exporter**
+3. En Obsidian: **Configuración > Plugins de comunidad > activar Encyclopedia Exporter**
 
 > En Mac: mostrar carpetas ocultas con `Cmd + Shift + .`  
 > En Windows: activar "Elementos ocultos" en el Explorador
@@ -88,28 +88,3 @@ tallados en monumentos del [[Antiguo Egipto]]...
 3. Recompilar: `npm run build`
 
 ---
-
-## Estructura del proyecto
-
-```
-encyclopedia-exporter/
-├── main.js               ← Compilado (instalar en el baúl)
-├── manifest.json         ← Metadatos del plugin
-├── styles.css            ← Estilos del modal
-├── src/
-│   ├── main.ts           ← Ribbon, comandos, menú contextual
-│   ├── modal.ts          ← UI del modal de búsqueda
-│   ├── settings.ts       ← Panel de configuración
-│   ├── formatter.ts      ← Generador de Markdown
-│   ├── wikilinks.ts      ← Motor de [[wikilinks]]
-│   ├── types.ts          ← Interfaces y valores por defecto
-│   └── sources/
-│       ├── base.ts       ← Clase abstracta ArticleSource
-│       ├── index.ts      ← Registro de fuentes
-│       ├── wikipedia.ts  ← Wikipedia (API REST)
-│       ├── sep.ts        ← SEP (scraping)
-│       └── iep.ts        ← IEP (scraping)
-├── esbuild.config.mjs
-├── tsconfig.json
-└── package.json
-```
