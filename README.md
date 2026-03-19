@@ -20,9 +20,9 @@ Plugin para Obsidian que exporta artículos de **Wikipedia**, **SEP** (Stanford 
 | Acción | Cómo |
 |---|---|
 | Abrir el exportador | Icono 📖 en la barra lateral |
-| Paleta de comandos | `Ctrl+P` → "Exportar artículo" |
-| Desde una selección | Seleccionar texto → clic derecho → "Buscar en enciclopedia" |
-| Por fuente directa | `Ctrl+P` → "Exportar desde Wikipedia / SEP / IEP" |
+| Paleta de comandos | `Ctrl+P` > "Exportar artículo" |
+| Desde una selección | Seleccionar texto > clic derecho > "Buscar en enciclopedia" |
+| Por fuente directa | `Ctrl+P` > "Exportar desde Wikipedia / SEP / IEP" |
 
 ---
 
@@ -55,7 +55,7 @@ tallados en monumentos del [[Antiguo Egipto]]...
 
 ## Configuración
 
-**Configuración → Plugins de comunidad → Encyclopedia Exporter ⚙**
+**Configuración > Plugins de comunidad > Encyclopedia Exporter ⚙**
 
 | Opción | Por defecto | Descripción |
 |---|---|---|
