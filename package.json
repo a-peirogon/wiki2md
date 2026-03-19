@@ -1,7 +1,7 @@
 {
-  "name": "obsidian-encyclopedia-exporter",
+  "name": "obsidian-encyclopedia-importer",
   "version": "1.0.0",
-  "description": "Export encyclopedia articles to Obsidian",
+  "description": "Import encyclopedia articles to Obsidian",
   "main": "main.js",
   "scripts": {
     "dev": "node esbuild.config.mjs",

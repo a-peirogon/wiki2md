@@ -20,7 +20,7 @@ export class IEPSource extends ArticleSource {
       const html = await res.text();
       return this.parse(html, url, topic);
     } catch (e) {
-      console.error("[EncyclopediaExporter] IEP error:", e);
+      console.error("[EncyclopediaImporter] IEP error:", e);
       return null;
     }
   }

@@ -8,7 +8,7 @@ Plugin para Obsidian que exporta artículos de **Wikipedia**, **SEP** (Stanford 
 
 1. Crear la carpeta `.obsidian/plugins/encyclopedia-importer/` en el baúl
 2. Copiar `main.js`, `manifest.json` y `styles.css` dentro de esa carpeta
-3. En Obsidian: **Configuración > Plugins de comunidad > activar Encyclopedia Importer**
+3. En Obsidian: **Configuración → Plugins de comunidad → activar Encyclopedia Importer**
 
 > En Mac: mostrar carpetas ocultas con `Cmd + Shift + .`  
 > En Windows: activar "Elementos ocultos" en el Explorador
@@ -19,10 +19,10 @@ Plugin para Obsidian que exporta artículos de **Wikipedia**, **SEP** (Stanford 
 
 | Acción | Cómo |
 |---|---|
-| Abrir el importador | Icono 📖 en la barra lateral |
-| Paleta de comandos | `Ctrl+P` > "Importar artículo" |
-| Desde una selección | Seleccionar texto > clic derecho > "Buscar en enciclopedia" |
-| Por fuente directa | `Ctrl+P` > "Importar desde Wikipedia / SEP / IEP" |
+| Abrir el exportador | Icono 📖 en la barra lateral |
+| Paleta de comandos | `Ctrl+P` → "Exportar artículo" |
+| Desde una selección | Seleccionar texto → clic derecho → "Buscar en enciclopedia" |
+| Por fuente directa | `Ctrl+P` → "Exportar desde Wikipedia / SEP / IEP" |
 
 ---
 
@@ -55,7 +55,7 @@ tallados en monumentos del [[Antiguo Egipto]]...
 
 ## Configuración
 
-**Configuración > Plugins de comunidad > Encyclopedia Importer ⚙**
+**Configuración → Plugins de comunidad → Encyclopedia Importer ⚙**
 
 | Opción | Por defecto | Descripción |
 |---|---|---|
@@ -89,3 +89,27 @@ tallados en monumentos del [[Antiguo Egipto]]...
 
 ---
 
+## Estructura del proyecto
+
+```
+encyclopedia-importer/
+├── main.js               ← Compilado (instalar en el baúl)
+├── manifest.json         ← Metadatos del plugin
+├── styles.css            ← Estilos del modal
+├── src/
+│   ├── main.ts           ← Ribbon, comandos, menú contextual
+│   ├── modal.ts          ← UI del modal de búsqueda
+│   ├── settings.ts       ← Panel de configuración
+│   ├── formatter.ts      ← Generador de Markdown
+│   ├── wikilinks.ts      ← Motor de [[wikilinks]]
+│   ├── types.ts          ← Interfaces y valores por defecto
+│   └── sources/
+│       ├── base.ts       ← Clase abstracta ArticleSource
+│       ├── index.ts      ← Registro de fuentes
+│       ├── wikipedia.ts  ← Wikipedia (API REST)
+│       ├── sep.ts        ← SEP (scraping)
+│       └── iep.ts        ← IEP (scraping)
+├── esbuild.config.mjs
+├── tsconfig.json
+└── package.json
+```

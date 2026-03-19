@@ -1,6 +1,6 @@
 import { Editor, MarkdownView, Menu, Notice, Plugin } from "obsidian";
 import { DEFAULT_SETTINGS, PluginSettings } from "./types";
-import { ExportModal } from "./modal";
+import { ImportModal } from "./modal";
 import { EncyclopediaSettingTab } from "./settings";
 
 export default class EncyclopediaPlugin extends Plugin {
@@ -10,40 +10,40 @@ export default class EncyclopediaPlugin extends Plugin {
     await this.loadSettings();
 
     // ── Ribbon icon ────────────────────────────────────────────────────
-    this.addRibbonIcon("book-open", "Exportar artículo enciclopédico", () => {
-      this.openExportModal();
+    this.addRibbonIcon("book-open", "Importar artículo enciclopédico", () => {
+      this.openImportModal();
     });
 
     // ── Comando de paleta — sin editor ─────────────────────────────────
     this.addCommand({
-      id: "open-export-modal",
-      name: "Exportar artículo de enciclopedia",
-      callback: () => this.openExportModal(),
+      id: "open-import-modal",
+      name: "Importar artículo de enciclopedia",
+      callback: () => this.openImportModal(),
     });
 
     this.addCommand({
-      id: "export-wikipedia",
-      name: "Exportar desde Wikipedia",
-      callback: () => this.openExportModal("wikipedia"),
+      id: "import-wikipedia",
+      name: "Importar desde Wikipedia",
+      callback: () => this.openImportModal("wikipedia"),
     });
 
     this.addCommand({
-      id: "export-sep",
-      name: "Exportar desde SEP (Stanford)",
-      callback: () => this.openExportModal("sep"),
+      id: "import-sep",
+      name: "Importar desde SEP (Stanford)",
+      callback: () => this.openImportModal("sep"),
     });
 
     this.addCommand({
-      id: "export-iep",
-      name: "Exportar desde IEP",
-      callback: () => this.openExportModal("iep"),
+      id: "import-iep",
+      name: "Importar desde IEP",
+      callback: () => this.openImportModal("iep"),
     });
 
     // ── Comando de paleta — desde selección (editorCallback) ───────────
     // Solo aparece cuando hay un editor activo; Obsidian lo deshabilita
     // automáticamente si no hay texto seleccionado.
     this.addCommand({
-      id: "export-from-selection",
+      id: "import-from-selection",
       name: "Buscar selección en enciclopedia",
       editorCallback: (editor: Editor) => {
         const selection = this.cleanSelection(editor.getSelection());
@@ -51,7 +51,7 @@ export default class EncyclopediaPlugin extends Plugin {
           new Notice("Selecciona un término en el editor primero.");
           return;
         }
-        this.openExportModal(undefined, selection);
+        this.openImportModal(undefined, selection);
       },
     });
 
@@ -66,7 +66,7 @@ export default class EncyclopediaPlugin extends Plugin {
           item
             .setTitle(`🔍 Buscar "${this.truncate(selection, 30)}" en enciclopedia`)
             .setIcon("book-open")
-            .onClick(() => this.openExportModal(undefined, selection));
+            .onClick(() => this.openImportModal(undefined, selection));
         });
 
         // Sub-opciones por fuente para ir directo sin cambiar el selector
@@ -74,19 +74,19 @@ export default class EncyclopediaPlugin extends Plugin {
           item
             .setTitle("   → Wikipedia")
             .setIcon("globe")
-            .onClick(() => this.openExportModal("wikipedia", selection));
+            .onClick(() => this.openImportModal("wikipedia", selection));
         });
         menu.addItem((item) => {
           item
             .setTitle("   → SEP (Stanford)")
             .setIcon("library")
-            .onClick(() => this.openExportModal("sep", selection));
+            .onClick(() => this.openImportModal("sep", selection));
         });
         menu.addItem((item) => {
           item
             .setTitle("   → IEP")
             .setIcon("library")
-            .onClick(() => this.openExportModal("iep", selection));
+            .onClick(() => this.openImportModal("iep", selection));
         });
         menu.addSeparator();
       }),
@@ -100,12 +100,12 @@ export default class EncyclopediaPlugin extends Plugin {
 
   // ── Helpers ───────────────────────────────────────────────────────────
 
-  openExportModal(forceSource?: string, prefill = "") {
+  openImportModal(forceSource?: string, prefill = "") {
     const settings = forceSource
       ? { ...this.settings, defaultSource: forceSource }
       : this.settings;
 
-    new ExportModal(this.app, settings, async (path: string) => {
+    new ImportModal(this.app, settings, async (path: string) => {
       const file = this.app.vault.getAbstractFileByPath(path);
       if (file) {
         const leaf = this.app.workspace.getLeaf(false);

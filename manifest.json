@@ -3,8 +3,8 @@
   "name": "Encyclopedia Importer",
   "version": "1.0.0",
   "minAppVersion": "1.4.0",
-  "description": "Importa artículos de Wikipedia, SEP e IEP con wikilinks inteligentes.",
-  "author": "a-peirogon",
+  "description": "Exporta artículos de Wikipedia, SEP e IEP directamente a tu baúl con wikilinks inteligentes y frontmatter YAML.",
+  "author": "obsidian-encyclopedia-importer",
   "authorUrl": "",
   "isDesktopOnly": false
 }

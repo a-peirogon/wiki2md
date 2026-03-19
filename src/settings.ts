@@ -13,7 +13,7 @@ export class EncyclopediaSettingTab extends PluginSettingTab {
   display() {
     const { containerEl } = this;
     containerEl.empty();
-    containerEl.createEl("h2", { text: "Encyclopedia Exporter — Configuración" });
+    containerEl.createEl("h2", { text: "Encyclopedia Importer — Configuración" });
 
     // ── General ──────────────────────────────────────────────────────────
     containerEl.createEl("h3", { text: "General" });

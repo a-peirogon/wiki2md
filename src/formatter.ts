@@ -81,7 +81,7 @@ function buildCredits(article: Article): string {
     lines.push(`*Autor(es): ${article.authors.join(", ")}*`);
   }
 
-  lines.push(`*Exportado el ${date}*`);
+  lines.push(`*Importado el ${date}*`);
 
   return lines.join("  \n");
 }

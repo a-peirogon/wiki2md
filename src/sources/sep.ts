@@ -20,7 +20,7 @@ export class SEPSource extends ArticleSource {
       const html = await res.text();
       return this.parse(html, url, topic);
     } catch (e) {
-      console.error("[EncyclopediaExporter] SEP error:", e);
+      console.error("[EncyclopediaImporter] SEP error:", e);
       return null;
     }
   }

@@ -4,9 +4,9 @@ import { getSource, listSources } from "./sources/index";
 import { applyWikilinks } from "./wikilinks";
 import { formatArticle } from "./formatter";
 
-export class ExportModal extends Modal {
+export class ImportModal extends Modal {
   private settings: PluginSettings;
-  private onExported?: (path: string) => void;
+  private onImported?: (path: string) => void;
 
   // Estado interno del modal
   private topic = "";
@@ -19,7 +19,7 @@ export class ExportModal extends Modal {
   // Referencias DOM
   private statusEl!: HTMLElement;
   private previewEl!: HTMLElement;
-  private exportBtn!: HTMLButtonElement;
+  private importBtn!: HTMLButtonElement;
   private topicInput!: HTMLInputElement;
   private suggestionsEl!: HTMLElement;
   private suggestTimeout: number | null = null;
@@ -27,12 +27,12 @@ export class ExportModal extends Modal {
   constructor(
     app: App,
     settings: PluginSettings,
-    onExported?: (path: string) => void,
+    onImported?: (path: string) => void,
     prefill = "",                        // ← nuevo parámetro opcional
   ) {
     super(app);
     this.settings = settings;
-    this.onExported = onExported;
+    this.onImported = onImported;
     this.prefill = prefill.trim().slice(0, 120); // máx 120 chars por seguridad
     this.topic = this.prefill;
     this.selectedSource = settings.defaultSource;
@@ -58,7 +58,7 @@ export class ExportModal extends Modal {
     // Header — título diferente si viene de una selección
     const titleText = this.prefill
       ? `🔍 Buscar en enciclopedia: "${this.prefill}"`
-      : "📚 Exportar artículo";
+      : "Importar artículo";
     root.createEl("h2", { cls: "enc-title", text: titleText });
 
     // Topic input
@@ -89,7 +89,7 @@ export class ExportModal extends Modal {
       this.scheduleSuggestions();
     });
     topicInput.addEventListener("keydown", (e) => {
-      if (e.key === "Enter") this.doExport();
+      if (e.key === "Enter") this.doImport();
     });
 
     // Options row
@@ -154,11 +154,11 @@ export class ExportModal extends Modal {
     });
     previewBtn.addEventListener("click", () => this.doPreview());
 
-    this.exportBtn = actions.createEl("button", {
+    this.importBtn = actions.createEl("button", {
       cls: "enc-btn enc-btn-primary",
-      text: "Exportar al baúl →",
+      text: "Importar al baúl",
     });
-    this.exportBtn.addEventListener("click", () => this.doExport());
+    this.importBtn.addEventListener("click", () => this.doImport());
   }
 
   // ── Suggestions ─────────────────────────────────────────────────────────
@@ -252,7 +252,7 @@ export class ExportModal extends Modal {
     this.previewEl.show();
   }
 
-  private async doExport() {
+  private async doImport() {
     const article = await this.fetchArticle();
     if (!article) return;
 
@@ -281,9 +281,9 @@ export class ExportModal extends Modal {
         await this.app.vault.create(filePath, markdown);
       }
 
-      new Notice(`✅ Exportado: ${filePath}`);
+      new Notice(`✅ Importado: ${filePath}`);
       this.setStatus(`✅ Guardado en: ${filePath}`, "ok");
-      this.onExported?.(filePath);
+      this.onImported?.(filePath);
       this.close();
     } catch (e) {
       const msg = e instanceof Error ? e.message : String(e);
@@ -301,7 +301,7 @@ export class ExportModal extends Modal {
 
   private setLoading(loading: boolean) {
     this.isLoading = loading;
-    this.exportBtn.disabled = loading;
-    this.exportBtn.setText(loading ? "Buscando…" : "Exportar al baúl →");
+    this.importBtn.disabled = loading;
+    this.importBtn.setText(loading ? "Buscando…" : "Importar al baúl");
   }
 }

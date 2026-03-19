@@ -77,7 +77,7 @@ export class WikipediaSource extends ArticleSource {
         lang: this.lang,
       };
     } catch (e) {
-      console.error("[EncyclopediaExporter] Wikipedia error:", e);
+      console.error("[EncyclopediaImporter] Wikipedia error:", e);
       return null;
     }
   }
